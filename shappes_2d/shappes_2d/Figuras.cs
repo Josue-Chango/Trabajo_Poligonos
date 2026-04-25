@@ -150,6 +150,42 @@ namespace shappes_2d
                 g.DrawPolygon(lapiz, puntos);
             }
         }
+
+        public void DibujarTrianguloRectangulo(Graphics g, float baseTri, float alturaTri)
+        {
+            float b = baseTri;
+            float h = alturaTri;
+
+            // Escala para valores pequeños
+            if (baseTri < 10 && alturaTri < 10)
+            {
+                b = baseTri * 10;
+                h = alturaTri * 10;
+            }
+
+            // Punto de referencia para la esquina del ángulo recto (350, 200)
+            float x = 350;
+            float y = 200;
+
+            // Definimos los 3 vértices
+            PointF p1 = new PointF(x, y);              // Esquina del ángulo recto
+            PointF p2 = new PointF(x + b, y);          // Extremo de la base
+            PointF p3 = new PointF(x, y - h);          // Extremo de la altura
+
+            PointF[] puntos = { p1, p2, p3 };
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Relleno
+            g.FillPolygon(Brushes.LightBlue, puntos);
+
+            // Borde
+            using (Pen lapiz = new Pen(Color.Blue, 2))
+            {
+                g.DrawPolygon(lapiz, puntos);
+            }
+        }
+
         public void DibujarRombo(Graphics g, float lado, double anguloGrados)
         {
             float l = lado;

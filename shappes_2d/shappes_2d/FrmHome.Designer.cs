@@ -39,6 +39,7 @@
             this.romboToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cometaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trianguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trianguloRectanguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,28 +70,28 @@
             // miExampleToolStripMenuItem
             // 
             this.miExampleToolStripMenuItem.Name = "miExampleToolStripMenuItem";
-            this.miExampleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miExampleToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miExampleToolStripMenuItem.Text = "Example";
             this.miExampleToolStripMenuItem.Click += new System.EventHandler(this.miExampleToolStripMenuItem_Click);
             // 
             // miRectanguloToolStripMenuItem
             // 
             this.miRectanguloToolStripMenuItem.Name = "miRectanguloToolStripMenuItem";
-            this.miRectanguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miRectanguloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miRectanguloToolStripMenuItem.Text = "Rectangulo";
             this.miRectanguloToolStripMenuItem.Click += new System.EventHandler(this.rectToolStripMenuItem_Click);
             // 
             // miTrianguloToolStripMenuItem
             // 
             this.miTrianguloToolStripMenuItem.Name = "miTrianguloToolStripMenuItem";
-            this.miTrianguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miTrianguloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miTrianguloToolStripMenuItem.Text = "Triangulo";
             this.miTrianguloToolStripMenuItem.Click += new System.EventHandler(this.miTrianguloToolStripMenuItem_Click);
             // 
             // miHexagonoToolStripMenuItem
             // 
             this.miHexagonoToolStripMenuItem.Name = "miHexagonoToolStripMenuItem";
-            this.miHexagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miHexagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miHexagonoToolStripMenuItem.Text = "Hexagono";
             this.miHexagonoToolStripMenuItem.Click += new System.EventHandler(this.miHexagonoToolStripMenuItem_Click);
             // 
@@ -100,7 +101,8 @@
             this.paralelogramoToolStripMenuItem,
             this.romboToolStripMenuItem,
             this.cometaToolStripMenuItem,
-            this.trianguloToolStripMenuItem});
+            this.trianguloToolStripMenuItem,
+            this.trianguloRectanguloToolStripMenuItem});
             this.segundaFila2dFiguresToolStripMenuItem.Name = "segundaFila2dFiguresToolStripMenuItem";
             this.segundaFila2dFiguresToolStripMenuItem.Size = new System.Drawing.Size(143, 20);
             this.segundaFila2dFiguresToolStripMenuItem.Text = "Segunda Fila 2d Figures";
@@ -108,30 +110,37 @@
             // paralelogramoToolStripMenuItem
             // 
             this.paralelogramoToolStripMenuItem.Name = "paralelogramoToolStripMenuItem";
-            this.paralelogramoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.paralelogramoToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.paralelogramoToolStripMenuItem.Text = "Paralelogramo";
             this.paralelogramoToolStripMenuItem.Click += new System.EventHandler(this.paralelogramoToolStripMenuItem_Click_1);
             // 
             // romboToolStripMenuItem
             // 
             this.romboToolStripMenuItem.Name = "romboToolStripMenuItem";
-            this.romboToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.romboToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.romboToolStripMenuItem.Text = "Rombo";
             this.romboToolStripMenuItem.Click += new System.EventHandler(this.romboToolStripMenuItem_Click);
             // 
             // cometaToolStripMenuItem
             // 
             this.cometaToolStripMenuItem.Name = "cometaToolStripMenuItem";
-            this.cometaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cometaToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.cometaToolStripMenuItem.Text = "Cometa";
             this.cometaToolStripMenuItem.Click += new System.EventHandler(this.cometaToolStripMenuItem_Click);
             // 
             // trianguloToolStripMenuItem
             // 
             this.trianguloToolStripMenuItem.Name = "trianguloToolStripMenuItem";
-            this.trianguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.trianguloToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.trianguloToolStripMenuItem.Text = "Triangulo";
             this.trianguloToolStripMenuItem.Click += new System.EventHandler(this.trianguloToolStripMenuItem_Click);
+            // 
+            // trianguloRectanguloToolStripMenuItem
+            // 
+            this.trianguloRectanguloToolStripMenuItem.Name = "trianguloRectanguloToolStripMenuItem";
+            this.trianguloRectanguloToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.trianguloRectanguloToolStripMenuItem.Text = "Triangulo Rectangulo";
+            this.trianguloRectanguloToolStripMenuItem.Click += new System.EventHandler(this.trianguloRectanguloToolStripMenuItem_Click);
             // 
             // FrmHome
             // 
@@ -165,5 +174,6 @@
         private System.Windows.Forms.ToolStripMenuItem romboToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cometaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trianguloToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem trianguloRectanguloToolStripMenuItem;
     }
 }
