@@ -77,5 +77,13 @@ namespace shappes_2d
             frmCometa.Show();
 
         }
+
+        private void trianguloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTrianguloE frmTrianguloE = new FrmTrianguloE();
+            frmTrianguloE.MdiParent = this;
+            frmTrianguloE.Show();
+
+        }
     }
 }

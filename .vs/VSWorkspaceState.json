@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\shappes_2d",
+    "\\shappes_2d\\shappes_2d"
   ],
-  "SelectedNode": "\\shappes_2d",
+  "SelectedNode": "\\shappes_2d\\shappes_2d\\FrmParalelogramo.cs",
   "PreviewInSolutionExplorer": false
 }

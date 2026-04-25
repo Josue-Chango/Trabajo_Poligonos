@@ -42,3 +42,4 @@ C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmParalelogramo.resources
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmRombo.resources
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmCometa.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrianguloE.resources

@@ -120,6 +120,36 @@ namespace shappes_2d
             }
         }
 
+        public void DibujarTrianguloEquilatero(Graphics g, float lado)
+        {
+            float l = lado;
+            // Escala para valores pequeños (estilo que usas en tus otros métodos)
+            if (lado < 10) { l = lado * 10; }
+
+            float centerX = 350;
+            float centerY = 150;
+
+            // Altura de un triángulo equilátero: (raíz de 3 / 2) * lado
+            float altura = (float)((Math.Sqrt(3) / 2) * l);
+
+            // Definimos los 3 puntos para que quede centrado
+            PointF superior = new PointF(centerX, centerY - (altura / 2));
+            PointF inferiorDerecha = new PointF(centerX + (l / 2), centerY + (altura / 2));
+            PointF inferiorIzquierda = new PointF(centerX - (l / 2), centerY + (altura / 2));
+
+            PointF[] puntos = { superior, inferiorDerecha, inferiorIzquierda };
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Relleno (puedes usar el azul que ya tenías)
+            g.FillPolygon(Brushes.LightBlue, puntos);
+
+            // Borde
+            using (Pen lapiz = new Pen(Color.Blue, 2))
+            {
+                g.DrawPolygon(lapiz, puntos);
+            }
+        }
         public void DibujarRombo(Graphics g, float lado, double anguloGrados)
         {
             float l = lado;
