@@ -157,6 +157,36 @@ namespace shappes_2d
                 g.DrawPolygon(lapiz, puntos);
             }
         }
+
+        public void DibujarCometa(Graphics g, float ancho, float alto)
+        {
+            float w = ancho;
+            float h = alto;
+
+            if (ancho < 10) { w *= 10; h *= 10; }
+
+            float centerX = 350;
+            float centerY = 150;
+
+            // ELIMINADO: Ya no recibimos el parámetro. 
+            // Ahora lo calculamos nosotros (0.25f es el 25% del alto)
+            float pSup = h * 0.25f;
+
+            PointF superior = new PointF(centerX, centerY - pSup);
+            PointF derecha = new PointF(centerX + (w / 2), centerY);
+            PointF inferior = new PointF(centerX, centerY + (h - pSup));
+            PointF izquierda = new PointF(centerX - (w / 2), centerY);
+
+            PointF[] puntos = { superior, derecha, inferior, izquierda };
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            g.FillPolygon(new SolidBrush(Color.FromArgb(188, 153, 203)), puntos);
+
+            using (Pen lapiz = new Pen(Color.FromArgb(60, 60, 90), 2))
+            {
+                g.DrawPolygon(lapiz, puntos);
+            }
+        }
         public void DibujarHexagono(Graphics g, float lado)
         {
             float a = lado;

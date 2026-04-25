@@ -37,6 +37,7 @@
             this.segundaFila2dFiguresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paralelogramoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.romboToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cometaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,7 +97,8 @@
             // 
             this.segundaFila2dFiguresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.paralelogramoToolStripMenuItem,
-            this.romboToolStripMenuItem});
+            this.romboToolStripMenuItem,
+            this.cometaToolStripMenuItem});
             this.segundaFila2dFiguresToolStripMenuItem.Name = "segundaFila2dFiguresToolStripMenuItem";
             this.segundaFila2dFiguresToolStripMenuItem.Size = new System.Drawing.Size(143, 20);
             this.segundaFila2dFiguresToolStripMenuItem.Text = "Segunda Fila 2d Figures";
@@ -114,6 +116,13 @@
             this.romboToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.romboToolStripMenuItem.Text = "Rombo";
             this.romboToolStripMenuItem.Click += new System.EventHandler(this.romboToolStripMenuItem_Click);
+            // 
+            // cometaToolStripMenuItem
+            // 
+            this.cometaToolStripMenuItem.Name = "cometaToolStripMenuItem";
+            this.cometaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cometaToolStripMenuItem.Text = "Cometa";
+            this.cometaToolStripMenuItem.Click += new System.EventHandler(this.cometaToolStripMenuItem_Click);
             // 
             // FrmHome
             // 
@@ -145,5 +154,6 @@
         private System.Windows.Forms.ToolStripMenuItem segundaFila2dFiguresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem paralelogramoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem romboToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cometaToolStripMenuItem;
     }
 }

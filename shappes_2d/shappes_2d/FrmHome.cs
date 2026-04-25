@@ -69,5 +69,13 @@ namespace shappes_2d
             frmRombo.MdiParent = this;
             frmRombo.Show();
         }
+
+        private void cometaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCometa frmCometa = new FrmCometa();
+            frmCometa.MdiParent = this;
+            frmCometa.Show();
+
+        }
     }
 }
