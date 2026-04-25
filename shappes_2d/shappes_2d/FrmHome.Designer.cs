@@ -36,6 +36,7 @@
             this.miHexagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.segundaFila2dFiguresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paralelogramoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.romboToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,35 +67,36 @@
             // miExampleToolStripMenuItem
             // 
             this.miExampleToolStripMenuItem.Name = "miExampleToolStripMenuItem";
-            this.miExampleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miExampleToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miExampleToolStripMenuItem.Text = "Example";
             this.miExampleToolStripMenuItem.Click += new System.EventHandler(this.miExampleToolStripMenuItem_Click);
             // 
             // miRectanguloToolStripMenuItem
             // 
             this.miRectanguloToolStripMenuItem.Name = "miRectanguloToolStripMenuItem";
-            this.miRectanguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miRectanguloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miRectanguloToolStripMenuItem.Text = "Rectangulo";
             this.miRectanguloToolStripMenuItem.Click += new System.EventHandler(this.rectToolStripMenuItem_Click);
             // 
             // miTrianguloToolStripMenuItem
             // 
             this.miTrianguloToolStripMenuItem.Name = "miTrianguloToolStripMenuItem";
-            this.miTrianguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miTrianguloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miTrianguloToolStripMenuItem.Text = "Triangulo";
             this.miTrianguloToolStripMenuItem.Click += new System.EventHandler(this.miTrianguloToolStripMenuItem_Click);
             // 
             // miHexagonoToolStripMenuItem
             // 
             this.miHexagonoToolStripMenuItem.Name = "miHexagonoToolStripMenuItem";
-            this.miHexagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miHexagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miHexagonoToolStripMenuItem.Text = "Hexagono";
             this.miHexagonoToolStripMenuItem.Click += new System.EventHandler(this.miHexagonoToolStripMenuItem_Click);
             // 
             // segundaFila2dFiguresToolStripMenuItem
             // 
             this.segundaFila2dFiguresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.paralelogramoToolStripMenuItem});
+            this.paralelogramoToolStripMenuItem,
+            this.romboToolStripMenuItem});
             this.segundaFila2dFiguresToolStripMenuItem.Name = "segundaFila2dFiguresToolStripMenuItem";
             this.segundaFila2dFiguresToolStripMenuItem.Size = new System.Drawing.Size(143, 20);
             this.segundaFila2dFiguresToolStripMenuItem.Text = "Segunda Fila 2d Figures";
@@ -106,6 +108,13 @@
             this.paralelogramoToolStripMenuItem.Text = "Paralelogramo";
             this.paralelogramoToolStripMenuItem.Click += new System.EventHandler(this.paralelogramoToolStripMenuItem_Click_1);
             // 
+            // romboToolStripMenuItem
+            // 
+            this.romboToolStripMenuItem.Name = "romboToolStripMenuItem";
+            this.romboToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.romboToolStripMenuItem.Text = "Rombo";
+            this.romboToolStripMenuItem.Click += new System.EventHandler(this.romboToolStripMenuItem_Click);
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -114,7 +123,7 @@
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmHome";
             this.Text = "Home";
             this.Load += new System.EventHandler(this.FrmHome_Load);
@@ -135,5 +144,6 @@
         private System.Windows.Forms.ToolStripMenuItem miHexagonoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem segundaFila2dFiguresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem paralelogramoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem romboToolStripMenuItem;
     }
 }

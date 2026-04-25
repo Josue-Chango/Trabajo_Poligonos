@@ -62,5 +62,12 @@ namespace shappes_2d
             frmParalelogramo.Show();
 
         }
+
+        private void romboToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmRombo frmRombo = new FrmRombo();
+            frmRombo.MdiParent = this;
+            frmRombo.Show();
+        }
     }
 }

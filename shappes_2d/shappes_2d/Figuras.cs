@@ -120,6 +120,43 @@ namespace shappes_2d
             }
         }
 
+        public void DibujarRombo(Graphics g, float lado, double anguloGrados)
+        {
+            float l = lado;
+            // Escala para valores pequeños
+            if (lado < 10) { l = lado * 10; }
+
+            // Punto central donde se dibujará el rombo
+            float centerX = 350;
+            float centerY = 150;
+
+            // Para un rombo "parado", calculamos los vértices arriba, abajo, izquierda y derecha.
+            // El ángulo aquí define qué tan "estirado" está el rombo.
+            double radianes = (anguloGrados / 2) * (Math.PI / 180.0);
+
+            // Calculamos las distancias desde el centro a las puntas
+            float semiDiagonalHorizontal = (float)(l * Math.Cos(radianes));
+            float semiDiagonalVertical = (float)(l * Math.Sin(radianes));
+
+            // Definimos los 4 puntos cardinales del rombo
+            PointF superior = new PointF(centerX, centerY - semiDiagonalVertical);
+            PointF derecha = new PointF(centerX + semiDiagonalHorizontal, centerY);
+            PointF inferior = new PointF(centerX, centerY + semiDiagonalVertical);
+            PointF izquierda = new PointF(centerX - semiDiagonalHorizontal, centerY);
+
+            PointF[] puntos = { superior, derecha, inferior, izquierda };
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Relleno
+            g.FillPolygon(Brushes.Thistle, puntos);
+
+            // Contorno
+            using (Pen lapiz = new Pen(Color.Purple, 2))
+            {
+                g.DrawPolygon(lapiz, puntos);
+            }
+        }
         public void DibujarHexagono(Graphics g, float lado)
         {
             float a = lado;

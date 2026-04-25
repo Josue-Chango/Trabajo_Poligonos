@@ -40,3 +40,4 @@ C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.exe
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.pdb
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmParalelogramo.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmRombo.resources
