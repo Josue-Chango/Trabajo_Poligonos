@@ -92,5 +92,12 @@ namespace shappes_2d
             frmTrianguloR.MdiParent = this;
             frmTrianguloR.Show();
         }
+
+        private void trianguloEscalenoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTrianguloEs frmTrianguloEs = new FrmTrianguloEs();
+            frmTrianguloEs.MdiParent = this;
+            frmTrianguloEs.Show();
+        }
     }
 }

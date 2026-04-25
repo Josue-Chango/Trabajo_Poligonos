@@ -40,6 +40,7 @@
             this.cometaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trianguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trianguloRectanguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trianguloEscalenoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,7 +103,8 @@
             this.romboToolStripMenuItem,
             this.cometaToolStripMenuItem,
             this.trianguloToolStripMenuItem,
-            this.trianguloRectanguloToolStripMenuItem});
+            this.trianguloRectanguloToolStripMenuItem,
+            this.trianguloEscalenoToolStripMenuItem});
             this.segundaFila2dFiguresToolStripMenuItem.Name = "segundaFila2dFiguresToolStripMenuItem";
             this.segundaFila2dFiguresToolStripMenuItem.Size = new System.Drawing.Size(143, 20);
             this.segundaFila2dFiguresToolStripMenuItem.Text = "Segunda Fila 2d Figures";
@@ -142,6 +144,13 @@
             this.trianguloRectanguloToolStripMenuItem.Text = "Triangulo Rectangulo";
             this.trianguloRectanguloToolStripMenuItem.Click += new System.EventHandler(this.trianguloRectanguloToolStripMenuItem_Click);
             // 
+            // trianguloEscalenoToolStripMenuItem
+            // 
+            this.trianguloEscalenoToolStripMenuItem.Name = "trianguloEscalenoToolStripMenuItem";
+            this.trianguloEscalenoToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.trianguloEscalenoToolStripMenuItem.Text = "Triangulo Escaleno";
+            this.trianguloEscalenoToolStripMenuItem.Click += new System.EventHandler(this.trianguloEscalenoToolStripMenuItem_Click);
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -175,5 +184,6 @@
         private System.Windows.Forms.ToolStripMenuItem cometaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trianguloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trianguloRectanguloToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem trianguloEscalenoToolStripMenuItem;
     }
 }

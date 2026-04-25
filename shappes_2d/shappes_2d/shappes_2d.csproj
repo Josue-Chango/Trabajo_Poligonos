@@ -102,6 +102,12 @@
     <Compile Include="FrmTrianguloE.Designer.cs">
       <DependentUpon>FrmTrianguloE.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmTrianguloEs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTrianguloEs.Designer.cs">
+      <DependentUpon>FrmTrianguloEs.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmTrianguloR.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTrianguloE.resx">
       <DependentUpon>FrmTrianguloE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTrianguloEs.resx">
+      <DependentUpon>FrmTrianguloEs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTrianguloR.resx">
       <DependentUpon>FrmTrianguloR.cs</DependentUpon>

@@ -186,6 +186,46 @@ namespace shappes_2d
             }
         }
 
+
+        public void DibujarTrianguloEscaleno(Graphics g, float ladoA, float ladoB, float ladoC)
+        {
+            // Validar que el triángulo sea posible (Suma de dos lados > el tercero)
+            if (ladoA + ladoB <= ladoC || ladoA + ladoC <= ladoB || ladoB + ladoC <= ladoA)
+            {
+                return; // No se puede dibujar si no cumple la desigualdad triangular
+            }
+
+            float a = ladoA;
+            float b = ladoB;
+            float c = ladoC;
+
+            // Escala para valores pequeños
+            if (a < 15) { a *= 10; b *= 10; c *= 10; }
+
+            float x = 350;
+            float y = 200;
+
+            // Usamos la Ley de los Cosenos para encontrar la coordenada X y Y del tercer punto
+            // cos(A) = (b² + c² - a²) / (2bc)
+            float cx = (b * b + c * c - a * a) / (2 * c);
+            float cy = (float)Math.Sqrt(Math.Max(0, b * b - cx * cx));
+
+            // Definimos los 3 puntos
+            PointF p1 = new PointF(x, y);          // Origen
+            PointF p2 = new PointF(x + c, y);      // Fin del lado C (base)
+            PointF p3 = new PointF(x + cx, y - cy); // Vértice superior calculado
+
+            PointF[] puntos = { p1, p2, p3 };
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            g.FillPolygon(Brushes.LightBlue, puntos);
+
+            using (Pen lapiz = new Pen(Color.Blue, 2))
+            {
+                g.DrawPolygon(lapiz, puntos);
+            }
+        }
+
         public void DibujarRombo(Graphics g, float lado, double anguloGrados)
         {
             float l = lado;
