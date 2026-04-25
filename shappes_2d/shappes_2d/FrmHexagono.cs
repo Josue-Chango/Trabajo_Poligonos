@@ -49,5 +49,10 @@ namespace shappes_2d
                 warning.Text = "Dato inválido, ingresa números mayores a 0 y sin espacios";
             }
         }
+
+        private void FrmHexagono_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

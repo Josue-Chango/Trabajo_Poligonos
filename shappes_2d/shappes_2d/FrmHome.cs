@@ -49,5 +49,18 @@ namespace shappes_2d
             frmHexagono.MdiParent = this;
             frmHexagono.Show();
         }
+
+        private void paralelogramoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void paralelogramoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FrmParalelogramo frmParalelogramo = new FrmParalelogramo();
+            frmParalelogramo.MdiParent = this;
+            frmParalelogramo.Show();
+
+        }
     }
 }

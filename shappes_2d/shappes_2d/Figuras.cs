@@ -75,6 +75,51 @@ namespace shappes_2d
             }
         }
 
+        public void DibujarParalelogramo(Graphics g, int ladoA, int ladoB, double anguloGrados)
+        {
+            float a = ladoA;
+            float b = ladoB;
+
+            // Aplicar escala si los valores son muy pequeños (como en tus otros métodos)
+            if (ladoA < 10 && ladoB < 10)
+            {
+                float escala = 10;
+                a = ladoA * escala;
+                b = ladoB * escala;
+            }
+
+            // Punto de anclaje similar a tus otras figuras
+            float x = 350;
+            float y = 150;
+
+            // Convertir ángulo a radianes
+            double radianes = anguloGrados * (Math.PI / 180.0);
+
+            // Calcular desplazamiento para la inclinación
+            float desplazamientoX = (float)(b * Math.Cos(radianes));
+            float desplazamientoY = (float)(b * Math.Sin(radianes));
+
+            // Definir los 4 puntos del paralelogramo
+            PointF p1 = new PointF(x, y);
+            PointF p2 = new PointF(x + a, y);
+            PointF p3 = new PointF(x + a + desplazamientoX, y - desplazamientoY);
+            PointF p4 = new PointF(x + desplazamientoX, y - desplazamientoY);
+
+            PointF[] puntos = { p1, p2, p3, p4 };
+
+            // Configurar suavizado para que no se vea pixelado
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Rellenar con el color azul claro que usas en el triángulo
+            g.FillPolygon(Brushes.LightBlue, puntos);
+
+            // Dibujar el borde (Pen azul de 2px como pediste)
+            using (Pen lapiz = new Pen(Color.Blue, 2))
+            {
+                g.DrawPolygon(lapiz, puntos);
+            }
+        }
+
         public void DibujarHexagono(Graphics g, float lado)
         {
             float a = lado;

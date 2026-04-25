@@ -25,3 +25,18 @@ E:\GIT\5to 2.0\Grafica\Parcial1\Trabajos en clase\shappes_2d\shappes_2d\obj\Debu
 E:\GIT\5to 2.0\Grafica\Parcial1\Trabajos en clase\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTriangulo.resources
 C:\Users\Josue\Documents\GitHub\5to-2.0\Grafica\Parcial1\Trabajos en clase\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTriangulo.resources
 C:\Users\Josue\Documents\GitHub\5to-2.0\Grafica\Parcial1\Trabajos en clase\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmHexagono.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\bin\Debug\shappes_2d.exe.config
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\bin\Debug\shappes_2d.exe
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\bin\Debug\shappes_2d.pdb
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmExample.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmHexagono.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmHome.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmRectangulo.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTriangulo.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.Properties.Resources.resources
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.exe
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.pdb
+C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmParalelogramo.resources
