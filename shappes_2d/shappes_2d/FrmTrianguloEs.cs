@@ -59,7 +59,7 @@ namespace shappes_2d
                 lC = float.Parse(txtLado3.Text);
 
                 // Verificación rápida de existencia de triángulo
-                if (lA + lB > lC && lA + slC > lB && lB + lC > lA)
+                if (lA + lB > lC && lA + lC > lB && lB + lC > lA)
                 {
                     float s = (lA + lB + lC) / 2; // Semiperímetro
                     double area = Math.Sqrt(s * (s - lA) * (s - lB) * (s - lC));

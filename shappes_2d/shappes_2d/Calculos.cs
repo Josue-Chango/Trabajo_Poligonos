@@ -42,5 +42,25 @@ namespace shappes_2d
         {
             return 6 * radio;
         }
+
+        public float CalcularAreaCirculo(float radio)
+        {
+            return (float)(Math.PI * Math.Pow(radio, 2));
+        }
+
+        public float CalcularPerimetroCirculo(float radio)
+        {
+            return (float)(2 * Math.PI * radio);
+        }
+
+        public float CalcularAreaElipse(float radioMayor, float radioMenor)
+        {
+            return (float)(Math.PI * radioMayor * radioMenor);
+        }
+
+        public float CalcularPerimetroElipse(float radioMayor, float radioMenor)
+        {
+            return (float)(Math.PI * (3 * (radioMayor + radioMenor) - Math.Sqrt((3 * radioMayor + radioMenor) * (radioMayor + 3 * radioMenor))));
+        }
     }
 }

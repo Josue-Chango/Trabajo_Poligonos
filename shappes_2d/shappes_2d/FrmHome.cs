@@ -99,5 +99,19 @@ namespace shappes_2d
             frmTrianguloEs.MdiParent = this;
             frmTrianguloEs.Show();
         }
+
+        private void circuloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCirculo frmCirculo = new FrmCirculo();
+            frmCirculo.MdiParent = this;
+            frmCirculo.Show();
+        }
+
+        private void elipseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmElipse frmElipse = new FrmElipse();
+            frmElipse.MdiParent = this;
+            frmElipse.Show();
+        }
     }
 }

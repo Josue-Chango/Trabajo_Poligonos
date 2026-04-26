@@ -34,6 +34,8 @@
             this.miRectanguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miTrianguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miHexagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.primeraFilaFiguras2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.circuloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.segundaFila2dFiguresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paralelogramoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.romboToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,6 +43,7 @@
             this.trianguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trianguloRectanguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trianguloEscalenoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.elipseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +52,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.miGraphicsToolStripMenuItem,
+            this.primeraFilaFiguras2DToolStripMenuItem,
             this.segundaFila2dFiguresToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -95,6 +99,22 @@
             this.miHexagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miHexagonoToolStripMenuItem.Text = "Hexagono";
             this.miHexagonoToolStripMenuItem.Click += new System.EventHandler(this.miHexagonoToolStripMenuItem_Click);
+            // 
+            // primeraFilaFiguras2DToolStripMenuItem
+            // 
+            this.primeraFilaFiguras2DToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.circuloToolStripMenuItem,
+            this.elipseToolStripMenuItem});
+            this.primeraFilaFiguras2DToolStripMenuItem.Name = "primeraFilaFiguras2DToolStripMenuItem";
+            this.primeraFilaFiguras2DToolStripMenuItem.Size = new System.Drawing.Size(139, 20);
+            this.primeraFilaFiguras2DToolStripMenuItem.Text = "Primera Fila Figuras 2D";
+            // 
+            // circuloToolStripMenuItem
+            // 
+            this.circuloToolStripMenuItem.Name = "circuloToolStripMenuItem";
+            this.circuloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.circuloToolStripMenuItem.Text = "Circulo";
+            this.circuloToolStripMenuItem.Click += new System.EventHandler(this.circuloToolStripMenuItem_Click);
             // 
             // segundaFila2dFiguresToolStripMenuItem
             // 
@@ -151,6 +171,13 @@
             this.trianguloEscalenoToolStripMenuItem.Text = "Triangulo Escaleno";
             this.trianguloEscalenoToolStripMenuItem.Click += new System.EventHandler(this.trianguloEscalenoToolStripMenuItem_Click);
             // 
+            // elipseToolStripMenuItem
+            // 
+            this.elipseToolStripMenuItem.Name = "elipseToolStripMenuItem";
+            this.elipseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.elipseToolStripMenuItem.Text = "Elipse";
+            this.elipseToolStripMenuItem.Click += new System.EventHandler(this.elipseToolStripMenuItem_Click);
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,5 +212,8 @@
         private System.Windows.Forms.ToolStripMenuItem trianguloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trianguloRectanguloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trianguloEscalenoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem primeraFilaFiguras2DToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem circuloToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem elipseToolStripMenuItem;
     }
 }

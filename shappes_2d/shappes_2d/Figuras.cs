@@ -325,7 +325,7 @@ namespace shappes_2d
                 for (int i = 0; i < 6; i++)
                 {
                     PointF[] triangulo = new PointF[3];
-                    triangulo[0] = centro; 
+                    triangulo[0] = centro;
                     triangulo[1] = puntos[i];
                     triangulo[2] = puntos[(i + 1) % 6];
 
@@ -370,5 +370,30 @@ namespace shappes_2d
 
             }
         }
+
+        public void DibujarCirculo(Graphics g, float radio)
+        {
+            float r = radio;
+            if (radio < 10) { r = radio * 10; }
+            Pen pen = new Pen(Color.Blue, 2);
+            g.DrawEllipse(pen, 350 - r, 100 - r, 2 * r, 2 * r);
+            g.FillEllipse(Brushes.LightBlue, 350 - r, 100 - r, 2 * r, 2 * r);
+
+        }
+
+        public void DibujarElipse(Graphics g, float radioMayor, float radioMenor)
+        {
+            float rm = radioMayor;
+            float rM = radioMenor;
+            if (radioMayor < 10 && radioMenor < 10)
+            {
+                rm = radioMayor * 10;
+                rM = radioMenor * 10;
+            }
+            Pen pen = new Pen(Color.Blue, 2);
+            g.DrawEllipse(pen, 350 - rm, 100 - rM, 2 * rm, 2 * rM);
+            g.FillEllipse(Brushes.LightBlue, 350 - rm, 100 - rM, 2 * rm, 2 * rM);
+        }
     }
 }
+

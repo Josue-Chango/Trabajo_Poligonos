@@ -45,3 +45,25 @@ C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrianguloE.resources
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrianguloR.resources
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrianguloEs.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\bin\Debug\shappes_2d.exe.config
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\bin\Debug\shappes_2d.exe
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\bin\Debug\shappes_2d.pdb
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.csproj.AssemblyReference.cache
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmCometa.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmExample.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmHexagono.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmHome.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmParalelogramo.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmRectangulo.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmRombo.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTriangulo.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrianguloE.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrianguloEs.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrianguloR.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.Properties.Resources.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.csproj.GenerateResource.cache
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.csproj.CoreCompileInputs.cache
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.exe
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.pdb
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmCirculo.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmElipse.resources
