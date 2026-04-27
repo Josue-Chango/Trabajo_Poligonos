@@ -67,3 +67,6 @@ E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.exe
 E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.pdb
 E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmCirculo.resources
 E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmElipse.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmOvalo.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmCuadrado.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrapecio.resources

@@ -394,6 +394,71 @@ namespace shappes_2d
             g.DrawEllipse(pen, 350 - rm, 100 - rM, 2 * rm, 2 * rM);
             g.FillEllipse(Brushes.LightBlue, 350 - rm, 100 - rM, 2 * rm, 2 * rM);
         }
+
+        public void DibujarOvalo(Graphics g, float radioMayor, float radioMenor)
+        {
+            float rm = radioMayor;
+            float rM = radioMenor;
+            if (radioMayor < 10 && radioMenor < 10)
+            {
+                rm = radioMayor * 10;
+                rM = radioMenor * 10;
+            }
+            Pen pen = new Pen(Color.Blue, 2);
+            g.DrawEllipse(pen, 350 - rm, 100 - rM, 2 * rm, 2 * rM);
+            g.FillEllipse(Brushes.LightBlue, 350 - rm, 100 - rM, 2 * rm, 2 * rM);
+        }
+
+        public void DibujarCuadrado(Graphics g, float lado)
+        {
+            float l = lado;
+            if (lado < 10) { l = lado * 10; }
+            Pen pen = new Pen(Color.Blue, 2);
+            g.DrawRectangle(pen, 350, 100, l, l);
+            g.FillRectangle(Brushes.LightBlue, 350, 100, l, l);
+        }
+
+        
+        public void DibujarTrapecio(Graphics g, float base_mayor, float base_menor, float lado_izquierdo, float lado_derecho)
+        {
+            float x = 350;
+            float y = 150;
+            float li = lado_izquierdo;
+            float ld = lado_derecho;
+            float bM = base_mayor;  
+            float bm = base_menor;  
+
+            if (base_mayor < 10 || base_menor < 10 || lado_derecho < 10 || lado_izquierdo < 10) {
+                int escalado = 10;
+                 li = lado_izquierdo * escalado;
+                 ld = lado_derecho * escalado;
+                 bM = base_mayor * escalado;  
+                 bm = base_menor* escalado;
+            }
+
+            float diferenciaTotal = bM - bm;
+
+
+            float dx_li = (diferenciaTotal * diferenciaTotal + li * li - ld * ld) / (2 * diferenciaTotal);
+            float h = (float)Math.Sqrt(Math.Max(0, li * li - dx_li * dx_li));
+
+            PointF[] puntos = new PointF[]
+            {
+                new PointF(x, y),                        
+                new PointF(x + bm, y),                   
+                new PointF(x + bm + (diferenciaTotal - dx_li), y + h),  
+                new PointF(x - dx_li, y + h)           
+            };
+
+            using (SolidBrush brocha = new SolidBrush(Color.Blue))
+            using (Pen lapiz = new Pen(Color.Black, 2))
+            {
+                g.FillPolygon(brocha, puntos);
+                g.DrawPolygon(lapiz, puntos);
+            }
+        }
     }
+
+
 }
 

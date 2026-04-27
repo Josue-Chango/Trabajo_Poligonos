@@ -57,5 +57,22 @@ namespace shappes_2d
                 return false;
             return true;
         }
+
+        public static bool ValidarTrapecio(float lado_izquierdo, float lado_derecho, float base_mayor, float base_menor)
+        {
+            
+            if (base_mayor <= base_menor)
+                return false;
+
+            float diferencia = base_mayor - base_menor;
+            float dx_li = (diferencia * diferencia + lado_izquierdo * lado_izquierdo - lado_derecho * lado_derecho)
+                          / (2 * diferencia);
+
+            float h2 = lado_izquierdo * lado_izquierdo - dx_li * dx_li;
+            if (h2 <= 0)
+                return false;
+
+            return true;
+        }
     }
 }

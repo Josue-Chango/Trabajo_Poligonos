@@ -113,5 +113,34 @@ namespace shappes_2d
             frmElipse.MdiParent = this;
             frmElipse.Show();
         }
+
+        private void ovaloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmOvalo frmOvalo = new FrmOvalo();
+            frmOvalo.MdiParent = this;
+            frmOvalo.Show();
+        }
+
+        private void rectanguloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmRectangulo frmRectangulo = new FrmRectangulo();
+            frmRectangulo.MdiParent = this;
+            frmRectangulo.Show();
+        }
+
+        private void cuadradoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            FrmCuadrado frmCuadrado = new FrmCuadrado();
+            frmCuadrado.MdiParent = this;
+            frmCuadrado.Show();
+        }
+
+        private void trapecioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTrapecio frmTrapecio = new FrmTrapecio();
+            frmTrapecio.MdiParent = this;
+            frmTrapecio.Show();
+        }
     }
 }

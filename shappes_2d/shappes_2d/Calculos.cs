@@ -62,5 +62,36 @@ namespace shappes_2d
         {
             return (float)(Math.PI * (3 * (radioMayor + radioMenor) - Math.Sqrt((3 * radioMayor + radioMenor) * (radioMayor + 3 * radioMenor))));
         }
+
+        public float CalcularAreaOvalo(float radioMayor, float radioMenor)
+        {
+            return (float)(Math.PI * radioMayor * radioMenor);
+        }
+
+        public float CalcularPerimetroOvalo(float radioMayor, float radioMenor)
+        {
+            return (float)(Math.PI * (3 * (radioMayor + radioMenor) - Math.Sqrt((3 * radioMayor + radioMenor) * (radioMayor + 3 * radioMenor))));
+        }
+
+        public float CalcularAreaCuadrado(float lado)
+        {
+            return lado * lado;
+        } 
+        
+        public float CalcularPerimetroCuadrado(float lado)
+        {
+            return 4 * lado;
+        }
+
+        public float CalcularAreaTrapecio(float baseMayor, float baseMenor, float lado_mayor, float lado_menor)
+        {
+            float altura = (float)(Math.Sqrt(Math.Pow(lado_mayor, 2) - Math.Pow((baseMayor - baseMenor) / 2, 2)));
+            return (baseMayor + baseMenor) * altura / 2;
+        }
+
+        public float CalcularPerimetroTrapecio(float baseMayor, float baseMenor, float lado_mayor, float lado_menor)
+        {
+            return baseMayor + baseMenor + lado_mayor + lado_menor;
+        }
     }
 }

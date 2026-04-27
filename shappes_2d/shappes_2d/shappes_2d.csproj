@@ -60,6 +60,12 @@
     <Compile Include="FrmCometa.Designer.cs">
       <DependentUpon>FrmCometa.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCuadrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCuadrado.Designer.cs">
+      <DependentUpon>FrmCuadrado.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmElipse.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,12 @@
     <Compile Include="FrmHome.Designer.cs">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmOvalo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOvalo.Designer.cs">
+      <DependentUpon>FrmOvalo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmParalelogramo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +113,12 @@
     </Compile>
     <Compile Include="FrmRombo.Designer.cs">
       <DependentUpon>FrmRombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTrapecio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTrapecio.Designer.cs">
+      <DependentUpon>FrmTrapecio.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmTriangulo.cs">
       <SubType>Form</SubType>
@@ -135,6 +153,9 @@
     <EmbeddedResource Include="FrmCometa.resx">
       <DependentUpon>FrmCometa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCuadrado.resx">
+      <DependentUpon>FrmCuadrado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmElipse.resx">
       <DependentUpon>FrmElipse.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,6 +168,9 @@
     <EmbeddedResource Include="FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmOvalo.resx">
+      <DependentUpon>FrmOvalo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmParalelogramo.resx">
       <DependentUpon>FrmParalelogramo.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRombo.resx">
       <DependentUpon>FrmRombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTrapecio.resx">
+      <DependentUpon>FrmTrapecio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmTriangulo.resx">
       <DependentUpon>FrmTriangulo.cs</DependentUpon>
