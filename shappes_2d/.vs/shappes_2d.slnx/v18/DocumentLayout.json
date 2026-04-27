@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|e:\\git\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmovalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmovalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\FrmHome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|e:\\git\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmtrapecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmtrapecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|e:\\git\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmtrapecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmtrapecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmtrapecio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\Figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\FrmHome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\Calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmcirculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -42,11 +46,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FrmOvalo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmOvalo.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmOvalo.cs",
+              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmOvalo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "shappes_2d\\FrmOvalo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T19:22:15.643Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FrmTrapecio.cs",
               "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmTrapecio.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmTrapecio.cs",
@@ -59,19 +75,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FrmTrapecio.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmTrapecio.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmTrapecio.cs",
               "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmTrapecio.cs [Dise\u00F1o]",
               "RelativeToolTip": "shappes_2d\\FrmTrapecio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T21:49:37.917Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-26T21:49:37.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Figuras.cs",
               "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
               "RelativeDocumentMoniker": "shappes_2d\\Figuras.cs",
@@ -79,12 +94,11 @@
               "RelativeToolTip": "shappes_2d\\Figuras.cs",
               "ViewState": "AgIAALgBAAAAAAAAAAAQwMIBAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T01:06:49.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T01:06:49.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FrmHome.cs",
               "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmHome.cs",
@@ -97,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FrmCirculo.cs",
               "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCirculo.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmCirculo.cs",
@@ -105,24 +119,22 @@
               "RelativeToolTip": "shappes_2d\\FrmCirculo.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T17:56:43.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T17:56:43.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FrmCirculo.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCirculo.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmCirculo.cs",
               "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCirculo.cs [Dise\u00F1o]",
               "RelativeToolTip": "shappes_2d\\FrmCirculo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T17:41:20.589Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-26T17:41:20.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "FrmHome.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmHome.cs",
@@ -134,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Calculos.cs",
               "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs",
               "RelativeDocumentMoniker": "shappes_2d\\Calculos.cs",
@@ -142,8 +154,7 @@
               "RelativeToolTip": "shappes_2d\\Calculos.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAiwF4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:07:29.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:07:29.498Z"
             }
           ]
         }

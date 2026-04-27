@@ -37,6 +37,10 @@
             this.primeraFilaFiguras2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.circuloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.elipseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ovaloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rectanguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cuadradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trapecioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.segundaFila2dFiguresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paralelogramoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.romboToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,10 +48,8 @@
             this.trianguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trianguloRectanguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trianguloEscalenoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ovaloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rectanguloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cuadradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.trapecioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.terceraFilaFiguras2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cuartaFilaFiguras2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +59,9 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.miGraphicsToolStripMenuItem,
             this.primeraFilaFiguras2DToolStripMenuItem,
-            this.segundaFila2dFiguresToolStripMenuItem});
+            this.segundaFila2dFiguresToolStripMenuItem,
+            this.terceraFilaFiguras2DToolStripMenuItem,
+            this.cuartaFilaFiguras2DToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -120,16 +124,44 @@
             // circuloToolStripMenuItem
             // 
             this.circuloToolStripMenuItem.Name = "circuloToolStripMenuItem";
-            this.circuloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.circuloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.circuloToolStripMenuItem.Text = "Circulo";
             this.circuloToolStripMenuItem.Click += new System.EventHandler(this.circuloToolStripMenuItem_Click);
             // 
             // elipseToolStripMenuItem
             // 
             this.elipseToolStripMenuItem.Name = "elipseToolStripMenuItem";
-            this.elipseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.elipseToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.elipseToolStripMenuItem.Text = "Elipse";
             this.elipseToolStripMenuItem.Click += new System.EventHandler(this.elipseToolStripMenuItem_Click);
+            // 
+            // ovaloToolStripMenuItem
+            // 
+            this.ovaloToolStripMenuItem.Name = "ovaloToolStripMenuItem";
+            this.ovaloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.ovaloToolStripMenuItem.Text = "Ovalo";
+            this.ovaloToolStripMenuItem.Click += new System.EventHandler(this.ovaloToolStripMenuItem_Click);
+            // 
+            // rectanguloToolStripMenuItem
+            // 
+            this.rectanguloToolStripMenuItem.Name = "rectanguloToolStripMenuItem";
+            this.rectanguloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.rectanguloToolStripMenuItem.Text = "Rectangulo";
+            this.rectanguloToolStripMenuItem.Click += new System.EventHandler(this.rectanguloToolStripMenuItem_Click);
+            // 
+            // cuadradoToolStripMenuItem
+            // 
+            this.cuadradoToolStripMenuItem.Name = "cuadradoToolStripMenuItem";
+            this.cuadradoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.cuadradoToolStripMenuItem.Text = "Cuadrado";
+            this.cuadradoToolStripMenuItem.Click += new System.EventHandler(this.cuadradoToolStripMenuItem_Click);
+            // 
+            // trapecioToolStripMenuItem
+            // 
+            this.trapecioToolStripMenuItem.Name = "trapecioToolStripMenuItem";
+            this.trapecioToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.trapecioToolStripMenuItem.Text = "Trapecio";
+            this.trapecioToolStripMenuItem.Click += new System.EventHandler(this.trapecioToolStripMenuItem_Click);
             // 
             // segundaFila2dFiguresToolStripMenuItem
             // 
@@ -186,33 +218,17 @@
             this.trianguloEscalenoToolStripMenuItem.Text = "Triangulo Escaleno";
             this.trianguloEscalenoToolStripMenuItem.Click += new System.EventHandler(this.trianguloEscalenoToolStripMenuItem_Click);
             // 
-            // ovaloToolStripMenuItem
+            // terceraFilaFiguras2DToolStripMenuItem
             // 
-            this.ovaloToolStripMenuItem.Name = "ovaloToolStripMenuItem";
-            this.ovaloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ovaloToolStripMenuItem.Text = "Ovalo";
-            this.ovaloToolStripMenuItem.Click += new System.EventHandler(this.ovaloToolStripMenuItem_Click);
+            this.terceraFilaFiguras2DToolStripMenuItem.Name = "terceraFilaFiguras2DToolStripMenuItem";
+            this.terceraFilaFiguras2DToolStripMenuItem.Size = new System.Drawing.Size(136, 20);
+            this.terceraFilaFiguras2DToolStripMenuItem.Text = "Tercera Fila Figuras 2D";
             // 
-            // rectanguloToolStripMenuItem
+            // cuartaFilaFiguras2DToolStripMenuItem
             // 
-            this.rectanguloToolStripMenuItem.Name = "rectanguloToolStripMenuItem";
-            this.rectanguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.rectanguloToolStripMenuItem.Text = "Rectangulo";
-            this.rectanguloToolStripMenuItem.Click += new System.EventHandler(this.rectanguloToolStripMenuItem_Click);
-            // 
-            // cuadradoToolStripMenuItem
-            // 
-            this.cuadradoToolStripMenuItem.Name = "cuadradoToolStripMenuItem";
-            this.cuadradoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cuadradoToolStripMenuItem.Text = "Cuadrado";
-            this.cuadradoToolStripMenuItem.Click += new System.EventHandler(this.cuadradoToolStripMenuItem_Click);
-            // 
-            // trapecioToolStripMenuItem
-            // 
-            this.trapecioToolStripMenuItem.Name = "trapecioToolStripMenuItem";
-            this.trapecioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.trapecioToolStripMenuItem.Text = "Trapecio";
-            this.trapecioToolStripMenuItem.Click += new System.EventHandler(this.trapecioToolStripMenuItem_Click);
+            this.cuartaFilaFiguras2DToolStripMenuItem.Name = "cuartaFilaFiguras2DToolStripMenuItem";
+            this.cuartaFilaFiguras2DToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
+            this.cuartaFilaFiguras2DToolStripMenuItem.Text = "Cuarta Fila Figuras 2D";
             // 
             // FrmHome
             // 
@@ -255,5 +271,7 @@
         private System.Windows.Forms.ToolStripMenuItem rectanguloToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cuadradoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem trapecioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem terceraFilaFiguras2DToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cuartaFilaFiguras2DToolStripMenuItem;
     }
 }
