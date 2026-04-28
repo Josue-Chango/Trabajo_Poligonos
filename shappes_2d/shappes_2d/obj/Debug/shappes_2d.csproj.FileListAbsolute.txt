@@ -70,3 +70,8 @@ E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmElipse.re
 E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmOvalo.resources
 E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmCuadrado.resources
 E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmTrapecio.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmPentagono.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmHeptagono.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmOctagono.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmNonagono.resources
+E:\GIT\Trabajo_Poligonos\shappes_2d\shappes_2d\obj\Debug\shappes_2d.FrmDecagono.resources

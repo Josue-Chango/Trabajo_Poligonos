@@ -93,5 +93,65 @@ namespace shappes_2d
         {
             return baseMayor + baseMenor + lado_mayor + lado_menor;
         }
+
+        public float CalcularAreaPentagono(float lado)
+        {
+            return (float)((Math.Pow(lado, 2) * Math.Sqrt(25 + 10 * Math.Sqrt(5))) / 4);
+        }
+
+        public float CalcularPerimetroPentagono(float lado)
+        {
+            return 5 * lado;
+        }
+
+        public float CalcularAreaHeptagono(float radio)
+        {
+            float lado = (float)(2 * radio * Math.Sin(Math.PI / 7));
+            return (float)((7 * Math.Pow(lado, 2)) / (4 * Math.Tan(Math.PI / 7)));
+        }
+
+        public float CalcularPerimetroHeptagono(float radio)
+        {
+            float lado = (float)(2 * radio * Math.Sin(Math.PI / 7));
+            return 7 * lado;
+        }
+
+        public float CalcularAreaOctagono(float radio)
+        {
+            float lado = (float)(2 * radio * Math.Sin(Math.PI / 8));
+            return (float)((2 * Math.Pow(lado, 2)) / Math.Tan(Math.PI / 8));
+        }
+
+        public float CalcularPerimetroOctagono(float radio)
+        {
+            float lado = (float)(2 * radio * Math.Sin(Math.PI / 8));
+            return 8 * lado;
+        }
+
+        public float CalcularAreaNonagono(float radio)
+        {
+            float lado = (float)(2 * radio * Math.Sin(Math.PI / 9));
+            return (float)((9 * Math.Pow(lado, 2)) / (4 * Math.Tan(Math.PI / 9)));
+        }
+
+        public float CalcularPerimetroNonagono(float radio)
+        {
+            float lado = (float)(2 * radio * Math.Sin(Math.PI / 9));
+            return 9 * lado;
+        }
+
+        public float CalcularAreaDecagono(float radio)
+        {
+            float lado = (float)(2 * radio * Math.Sin(Math.PI / 10));
+            return (float)((5 * Math.Pow(lado, 2)) / (4 * Math.Tan(Math.PI / 10)));
+        }
+
+        public float CalcularPerimetroDecagono(float radio)
+        {
+            float lado = (float)(2 * radio * Math.Sin(Math.PI / 10));
+            return 10 * lado;
+        }
+
+
     }
 }

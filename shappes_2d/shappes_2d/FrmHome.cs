@@ -142,5 +142,47 @@ namespace shappes_2d
             frmTrapecio.MdiParent = this;
             frmTrapecio.Show();
         }
+
+        private void pentagonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmPentagono frmPentagono = new FrmPentagono();
+            frmPentagono.MdiParent = this;
+            frmPentagono.Show();
+        }
+
+        private void hexagonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmHexagono frmHexagono = new FrmHexagono();
+            frmHexagono.MdiParent = this;
+            frmHexagono.Show();
+        }
+
+        private void heptagonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmHeptagono frmHeptagono = new FrmHeptagono();
+            frmHeptagono.MdiParent = this;
+            frmHeptagono.Show();
+        }
+
+        private void octagonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmOctagono frmOctagono = new FrmOctagono();
+            frmOctagono.MdiParent = this;
+            frmOctagono.Show();
+        }
+
+        private void nonagonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmNonagono frmNonagono = new FrmNonagono();
+            frmNonagono.MdiParent = this;
+            frmNonagono.Show();
+        }
+
+        private void decagonoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmDecagono frmDecagono = new FrmDecagono();
+            frmDecagono.MdiParent = this;
+            frmDecagono.Show();
+        }
     }
 }

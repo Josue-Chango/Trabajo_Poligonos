@@ -66,6 +66,12 @@
     <Compile Include="FrmCuadrado.Designer.cs">
       <DependentUpon>FrmCuadrado.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDecagono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDecagono.Designer.cs">
+      <DependentUpon>FrmDecagono.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmElipse.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,12 @@
     </Compile>
     <Compile Include="FrmExample.Designer.cs">
       <DependentUpon>FrmExample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHeptagono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHeptagono.Designer.cs">
+      <DependentUpon>FrmHeptagono.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmHexagono.cs">
       <SubType>Form</SubType>
@@ -90,6 +102,18 @@
     <Compile Include="FrmHome.Designer.cs">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmNonagono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNonagono.Designer.cs">
+      <DependentUpon>FrmNonagono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOctagono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOctagono.Designer.cs">
+      <DependentUpon>FrmOctagono.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmOvalo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +125,12 @@
     </Compile>
     <Compile Include="FrmParalelogramo.Designer.cs">
       <DependentUpon>FrmParalelogramo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPentagono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPentagono.Designer.cs">
+      <DependentUpon>FrmPentagono.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRectangulo.cs">
       <SubType>Form</SubType>
@@ -156,11 +186,17 @@
     <EmbeddedResource Include="FrmCuadrado.resx">
       <DependentUpon>FrmCuadrado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmDecagono.resx">
+      <DependentUpon>FrmDecagono.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmElipse.resx">
       <DependentUpon>FrmElipse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmExample.resx">
       <DependentUpon>FrmExample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHeptagono.resx">
+      <DependentUpon>FrmHeptagono.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHexagono.resx">
       <DependentUpon>FrmHexagono.cs</DependentUpon>
@@ -168,11 +204,20 @@
     <EmbeddedResource Include="FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmNonagono.resx">
+      <DependentUpon>FrmNonagono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOctagono.resx">
+      <DependentUpon>FrmOctagono.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmOvalo.resx">
       <DependentUpon>FrmOvalo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmParalelogramo.resx">
       <DependentUpon>FrmParalelogramo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPentagono.resx">
+      <DependentUpon>FrmPentagono.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRectangulo.resx">
       <DependentUpon>FrmRectangulo.cs</DependentUpon>

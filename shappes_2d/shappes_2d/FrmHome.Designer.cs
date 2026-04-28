@@ -50,6 +50,12 @@
             this.trianguloEscalenoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.terceraFilaFiguras2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuartaFilaFiguras2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pentagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hexagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.heptagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.octagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nonagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.decagonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -220,6 +226,13 @@
             // 
             // terceraFilaFiguras2DToolStripMenuItem
             // 
+            this.terceraFilaFiguras2DToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.pentagonoToolStripMenuItem,
+            this.hexagonoToolStripMenuItem,
+            this.heptagonoToolStripMenuItem,
+            this.octagonoToolStripMenuItem,
+            this.nonagonoToolStripMenuItem,
+            this.decagonoToolStripMenuItem});
             this.terceraFilaFiguras2DToolStripMenuItem.Name = "terceraFilaFiguras2DToolStripMenuItem";
             this.terceraFilaFiguras2DToolStripMenuItem.Size = new System.Drawing.Size(136, 20);
             this.terceraFilaFiguras2DToolStripMenuItem.Text = "Tercera Fila Figuras 2D";
@@ -229,6 +242,48 @@
             this.cuartaFilaFiguras2DToolStripMenuItem.Name = "cuartaFilaFiguras2DToolStripMenuItem";
             this.cuartaFilaFiguras2DToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
             this.cuartaFilaFiguras2DToolStripMenuItem.Text = "Cuarta Fila Figuras 2D";
+            // 
+            // pentagonoToolStripMenuItem
+            // 
+            this.pentagonoToolStripMenuItem.Name = "pentagonoToolStripMenuItem";
+            this.pentagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pentagonoToolStripMenuItem.Text = "Pentagono";
+            this.pentagonoToolStripMenuItem.Click += new System.EventHandler(this.pentagonoToolStripMenuItem_Click);
+            // 
+            // hexagonoToolStripMenuItem
+            // 
+            this.hexagonoToolStripMenuItem.Name = "hexagonoToolStripMenuItem";
+            this.hexagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hexagonoToolStripMenuItem.Text = "Hexagono";
+            this.hexagonoToolStripMenuItem.Click += new System.EventHandler(this.hexagonoToolStripMenuItem_Click);
+            // 
+            // heptagonoToolStripMenuItem
+            // 
+            this.heptagonoToolStripMenuItem.Name = "heptagonoToolStripMenuItem";
+            this.heptagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.heptagonoToolStripMenuItem.Text = "Heptagono";
+            this.heptagonoToolStripMenuItem.Click += new System.EventHandler(this.heptagonoToolStripMenuItem_Click);
+            // 
+            // octagonoToolStripMenuItem
+            // 
+            this.octagonoToolStripMenuItem.Name = "octagonoToolStripMenuItem";
+            this.octagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.octagonoToolStripMenuItem.Text = "Octagono";
+            this.octagonoToolStripMenuItem.Click += new System.EventHandler(this.octagonoToolStripMenuItem_Click);
+            // 
+            // nonagonoToolStripMenuItem
+            // 
+            this.nonagonoToolStripMenuItem.Name = "nonagonoToolStripMenuItem";
+            this.nonagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nonagonoToolStripMenuItem.Text = "Nonagono";
+            this.nonagonoToolStripMenuItem.Click += new System.EventHandler(this.nonagonoToolStripMenuItem_Click);
+            // 
+            // decagonoToolStripMenuItem
+            // 
+            this.decagonoToolStripMenuItem.Name = "decagonoToolStripMenuItem";
+            this.decagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.decagonoToolStripMenuItem.Text = "Decagono";
+            this.decagonoToolStripMenuItem.Click += new System.EventHandler(this.decagonoToolStripMenuItem_Click);
             // 
             // FrmHome
             // 
@@ -273,5 +328,11 @@
         private System.Windows.Forms.ToolStripMenuItem trapecioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem terceraFilaFiguras2DToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cuartaFilaFiguras2DToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pentagonoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hexagonoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem heptagonoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem octagonoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nonagonoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem decagonoToolStripMenuItem;
     }
 }

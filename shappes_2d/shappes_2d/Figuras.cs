@@ -457,6 +457,241 @@ namespace shappes_2d
                 g.DrawPolygon(lapiz, puntos);
             }
         }
+
+        public void DibujarPentagono(Graphics g, float lado)
+        {
+            float a = lado;
+            PointF centro = new PointF(350, 100);
+
+            if (lado < 10)
+            {
+                float escala = 4;
+                a = lado * escala;
+            }
+
+            PointF[] puntos = new PointF[5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                float angle = (float)(i * 2 * Math.PI / 5);
+                puntos[i] = new PointF(
+                    centro.X + a * (float)Math.Cos(angle),
+                    centro.Y + a * (float)Math.Sin(angle)
+                );
+            }
+
+            Brush[] brushes = new Brush[]
+            {
+        Brushes.Red,
+        Brushes.Green,
+        Brushes.Blue,
+        Brushes.Yellow,
+        Brushes.Orange
+            };
+
+            for (int i = 0; i < 5; i++)
+            {
+                PointF[] triangulo = new PointF[3];
+                triangulo[0] = centro;
+                triangulo[1] = puntos[i];
+                triangulo[2] = puntos[(i + 1) % 5];
+
+                g.FillPolygon(brushes[i % brushes.Length], triangulo);
+            }
+
+            g.DrawPolygon(Pens.Black, puntos);
+        }
+
+        public void DibujarHeptagono(Graphics g, float lado)
+        {
+            float a = lado;
+            PointF centro = new PointF(350, 100);
+
+            if (lado < 10)
+            {
+                float escala = 4;
+                a = lado * escala;
+            }
+
+            PointF[] puntos = new PointF[7];
+
+            for (int i = 0; i < 7; i++)
+            {
+                float angle = (float)(i * 2 * Math.PI / 7); 
+                puntos[i] = new PointF(
+                    centro.X + a * (float)Math.Cos(angle),
+                    centro.Y + a * (float)Math.Sin(angle)
+                );
+            }
+
+            Brush[] brushes = new Brush[]
+            {
+        Brushes.Red,
+        Brushes.Green,
+        Brushes.Blue,
+        Brushes.Yellow,
+        Brushes.Orange,
+        Brushes.Purple,
+        Brushes.Cyan
+            };
+
+            for (int i = 0; i < 7; i++)
+            {
+                PointF[] triangulo = new PointF[3];
+                triangulo[0] = centro;
+                triangulo[1] = puntos[i];
+                triangulo[2] = puntos[(i + 1) % 7];
+
+                g.FillPolygon(brushes[i % brushes.Length], triangulo);
+            }
+
+             g.DrawPolygon(Pens.Black, puntos);
+        }
+
+
+        public void DibujarOctagono(Graphics g, float lado)
+        {
+            float a = lado;
+            PointF centro = new PointF(350, 100);
+
+            if (lado < 10)
+            {
+                float escala = 4;
+                a = lado * escala;
+            }
+
+            PointF[] puntos = new PointF[8];
+
+            for (int i = 0; i < 8; i++)
+            {
+                float angle = (float)(i * 2 * Math.PI / 8);
+                puntos[i] = new PointF(
+                    centro.X + a * (float)Math.Cos(angle),
+                    centro.Y + a * (float)Math.Sin(angle)
+                );
+            }
+
+            Brush[] brushes = new Brush[]
+            {
+        Brushes.Red,
+        Brushes.Green,
+        Brushes.Blue,
+        Brushes.Yellow,
+        Brushes.Orange,
+        Brushes.Purple,
+        Brushes.Cyan,
+        Brushes.Magenta
+            };
+
+            for (int i = 0; i < 8; i++)
+            {
+                PointF[] triangulo = new PointF[3];
+                triangulo[0] = centro;
+                triangulo[1] = puntos[i];
+                triangulo[2] = puntos[(i + 1) % 8];
+
+                g.FillPolygon(brushes[i % brushes.Length], triangulo);
+            }
+
+            g.DrawPolygon(Pens.Black, puntos);
+        }
+
+        public void DibujarNonagono(Graphics g, float lado)
+        {
+            float a = lado;
+            PointF centro = new PointF(350, 100);
+
+            if (lado < 10)
+            {
+                float escala = 4;
+                a = lado * escala;
+            }
+
+            PointF[] puntos = new PointF[9];
+
+            for (int i = 0; i < 9; i++)
+            {
+                float angle = (float)(i * 2 * Math.PI / 9);
+                puntos[i] = new PointF(
+                    centro.X + a * (float)Math.Cos(angle),
+                    centro.Y + a * (float)Math.Sin(angle)
+                );
+            }
+
+            Brush[] brushes = new Brush[]
+            {
+        Brushes.Red,
+        Brushes.Green,
+        Brushes.Blue,
+        Brushes.Yellow,
+        Brushes.Orange,
+        Brushes.Purple,
+        Brushes.Cyan,
+        Brushes.Magenta,
+        Brushes.Brown
+            };
+
+            for (int i = 0; i < 9; i++)
+            {
+                PointF[] triangulo = new PointF[3];
+                triangulo[0] = centro;
+                triangulo[1] = puntos[i];
+                triangulo[2] = puntos[(i + 1) % 9];
+
+                g.FillPolygon(brushes[i % brushes.Length], triangulo);
+            }
+
+            g.DrawPolygon(Pens.Black, puntos);
+        }
+
+        public void DibujarDecagono(Graphics g, float lado)
+        {
+            float a = lado;
+            PointF centro = new PointF(350, 100);
+
+            if (lado < 10)
+            {
+                float escala = 4;
+                a = lado * escala;
+            }
+
+            PointF[] puntos = new PointF[10];
+
+            for (int i = 0; i < 10; i++)
+            {
+                float angle = (float)(i * 2 * Math.PI / 10);
+                puntos[i] = new PointF(
+                    centro.X + a * (float)Math.Cos(angle),
+                    centro.Y + a * (float)Math.Sin(angle)
+                );
+            }
+
+            Brush[] brushes = new Brush[]
+            {
+        Brushes.Red,
+        Brushes.Green,
+        Brushes.Blue,
+        Brushes.Yellow,
+        Brushes.Orange,
+        Brushes.Purple,
+        Brushes.Cyan,
+        Brushes.Magenta,
+        Brushes.Brown,
+        Brushes.OldLace,
+            };
+
+            for (int i = 0; i < 10; i++)
+            {
+                PointF[] triangulo = new PointF[3];
+                triangulo[0] = centro;
+                triangulo[1] = puntos[i];
+                triangulo[2] = puntos[(i + 1) % 10];
+
+                g.FillPolygon(brushes[i % brushes.Length], triangulo);
+            }
+
+            g.DrawPolygon(Pens.Black, puntos);
+        }
     }
 
 
