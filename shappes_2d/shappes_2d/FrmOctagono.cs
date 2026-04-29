@@ -34,7 +34,7 @@ namespace shappes_2d
             }
             else
             {
-                MessageBox.Show("Campo no valido, el campo debe llenarse con numeros positivos o debe existir el trapecio");
+                MessageBox.Show("Campo no valido, el campo debe llenarse con numeros positivos ");
             }
         }
         private void pctGrafico_Paint(object sender, PaintEventArgs e)

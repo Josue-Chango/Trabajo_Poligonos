@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\",
+  "WorkspaceRootPath": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|e:\\git\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\josue\\documents\\github\\trabajo_poligonos\\shappes_2d\\shappes_2d\\figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\josue\\documents\\github\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmflecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmflecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\josue\\documents\\github\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|e:\\git\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\josue\\documents\\github\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmflecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmflecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\Figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\Calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|e:\\git\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\Calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmdecagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|e:\\git\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmpentagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmpentagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|e:\\git\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmpentagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmpentagono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,28 +42,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FrmFlecha.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmFlecha.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmFlecha.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmFlecha.cs",
+              "RelativeToolTip": "shappes_2d\\FrmFlecha.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAvwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T16:27:16.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmFlecha.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmFlecha.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmFlecha.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmFlecha.cs [Dise\u00F1o]",
+              "RelativeToolTip": "shappes_2d\\FrmFlecha.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T16:04:33.572Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FrmDecagono.cs",
-              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmDecagono.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmDecagono.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmDecagono.cs",
-              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmDecagono.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmDecagono.cs",
               "RelativeToolTip": "shappes_2d\\FrmDecagono.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAewD0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAnwBkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T23:03:57.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FrmDecagono.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmDecagono.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmDecagono.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmDecagono.cs",
-              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmDecagono.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmDecagono.cs [Dise\u00F1o]",
               "RelativeToolTip": "shappes_2d\\FrmDecagono.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T23:01:43.038Z",
@@ -71,38 +96,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmPentagono.cs",
-              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmPentagono.cs",
-              "RelativeDocumentMoniker": "shappes_2d\\FrmPentagono.cs",
-              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmPentagono.cs",
-              "RelativeToolTip": "shappes_2d\\FrmPentagono.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAqwCUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T21:47:19.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmPentagono.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmPentagono.cs",
-              "RelativeDocumentMoniker": "shappes_2d\\FrmPentagono.cs",
-              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmPentagono.cs [Dise\u00F1o]",
-              "RelativeToolTip": "shappes_2d\\FrmPentagono.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T21:38:51.361Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Figuras.cs",
-              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
               "RelativeDocumentMoniker": "shappes_2d\\Figuras.cs",
-              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
               "RelativeToolTip": "shappes_2d\\Figuras.cs",
-              "ViewState": "AgIAAKACAAAAAAAAAAAQwKcCAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAMsCAAAAAAAAAAAcwN8CAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T01:06:49.506Z",
               "EditorCaption": ""
@@ -111,22 +111,22 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FrmHome.cs",
-              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmHome.cs",
-              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
               "RelativeToolTip": "shappes_2d\\FrmHome.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAewLgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAK8AAAAAAAAAAAApwL8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T01:02:26.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "FrmHome.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmHome.cs",
-              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs [Dise\u00F1o]",
               "RelativeToolTip": "shappes_2d\\FrmHome.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T19:43:53.845Z",
@@ -134,13 +134,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Calculos.cs",
-              "DocumentMoniker": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs",
+              "DocumentMoniker": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs",
               "RelativeDocumentMoniker": "shappes_2d\\Calculos.cs",
-              "ToolTip": "E:\\GIT\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs",
+              "ToolTip": "C:\\Users\\Josue\\Documents\\GitHub\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs",
               "RelativeToolTip": "shappes_2d\\Calculos.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAqwJoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAIwKYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T16:07:29.498Z",
               "EditorCaption": ""

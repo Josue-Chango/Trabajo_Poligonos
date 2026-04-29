@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace shappes_2d
 {
@@ -418,22 +419,23 @@ namespace shappes_2d
             g.FillRectangle(Brushes.LightBlue, 350, 100, l, l);
         }
 
-        
+
         public void DibujarTrapecio(Graphics g, float base_mayor, float base_menor, float lado_izquierdo, float lado_derecho)
         {
             float x = 350;
             float y = 150;
             float li = lado_izquierdo;
             float ld = lado_derecho;
-            float bM = base_mayor;  
-            float bm = base_menor;  
+            float bM = base_mayor;
+            float bm = base_menor;
 
-            if (base_mayor < 10 || base_menor < 10 || lado_derecho < 10 || lado_izquierdo < 10) {
+            if (base_mayor < 10 || base_menor < 10 || lado_derecho < 10 || lado_izquierdo < 10)
+            {
                 int escalado = 10;
-                 li = lado_izquierdo * escalado;
-                 ld = lado_derecho * escalado;
-                 bM = base_mayor * escalado;  
-                 bm = base_menor* escalado;
+                li = lado_izquierdo * escalado;
+                ld = lado_derecho * escalado;
+                bM = base_mayor * escalado;
+                bm = base_menor * escalado;
             }
 
             float diferenciaTotal = bM - bm;
@@ -444,10 +446,10 @@ namespace shappes_2d
 
             PointF[] puntos = new PointF[]
             {
-                new PointF(x, y),                        
-                new PointF(x + bm, y),                   
-                new PointF(x + bm + (diferenciaTotal - dx_li), y + h),  
-                new PointF(x - dx_li, y + h)           
+                new PointF(x, y),
+                new PointF(x + bm, y),
+                new PointF(x + bm + (diferenciaTotal - dx_li), y + h),
+                new PointF(x - dx_li, y + h)
             };
 
             using (SolidBrush brocha = new SolidBrush(Color.Blue))
@@ -517,7 +519,7 @@ namespace shappes_2d
 
             for (int i = 0; i < 7; i++)
             {
-                float angle = (float)(i * 2 * Math.PI / 7); 
+                float angle = (float)(i * 2 * Math.PI / 7);
                 puntos[i] = new PointF(
                     centro.X + a * (float)Math.Cos(angle),
                     centro.Y + a * (float)Math.Sin(angle)
@@ -545,7 +547,7 @@ namespace shappes_2d
                 g.FillPolygon(brushes[i % brushes.Length], triangulo);
             }
 
-             g.DrawPolygon(Pens.Black, puntos);
+            g.DrawPolygon(Pens.Black, puntos);
         }
 
 
@@ -692,8 +694,54 @@ namespace shappes_2d
 
             g.DrawPolygon(Pens.Black, puntos);
         }
+
+        /*public void DibujarFlecha(Graphics g, float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
+        {
+
+            //Flecha Horizontal apuntando a la derecha
+            PointF punto1 = new PointF(350, 150); 
+            PointF punto2 = new PointF(350 + base_cuerpo, 150);
+            PointF punto3 = new PointF(350 + base_cuerpo, 150 + (base_cabeza / 2) - base_cuerpo);
+            PointF punto4 = new PointF(350 + base_cuerpo + altura_cabeza, 150 + altura_cabeza / 2); 
+            PointF punto5 = new PointF(350 + base_cuerpo, 150 - (base_cabeza - (base_cabeza / 2) - base_cuerpo)); 
+            PointF punto6 = new PointF(350 + base_cuerpo, 150 - base_cabeza); 
+            PointF punto7 = new PointF(350, 150 - altura_cabeza); 
+            //PointF punto8 = new PointF(350, 150); // Punto superior del cuerpo
+
+            PointF[] Flecha = {punto1, punto2, punto3, punto4, punto5, punto6, punto7};
+
+                g.FillPolygon(Brushes.Yellow, Flecha);
+            }*/
+
+        public void DibujarFlecha(Graphics g, float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
+        {
+            float x = 350;
+            float y = 150;
+
+            // Mitades para centrar
+            float mitad_cuerpo = altura_cuerpo / 2;
+            float mitad_cabeza = altura_cabeza / 2;
+
+            PointF p1 = new PointF(x, y - mitad_cuerpo);                        
+            PointF p2 = new PointF(x + base_cuerpo, y - mitad_cuerpo);          
+            PointF p3 = new PointF(x + base_cuerpo, y - mitad_cabeza);       
+            PointF p4 = new PointF(x + base_cuerpo + base_cabeza, y);           
+            PointF p5 = new PointF(x + base_cuerpo, y + mitad_cabeza);         
+            PointF p6 = new PointF(x + base_cuerpo, y + mitad_cuerpo);          
+            PointF p7 = new PointF(x, y + mitad_cuerpo);                       
+
+            PointF[] flecha = { p1, p2, p3, p4, p5, p6, p7 };
+
+            g.FillPolygon(Brushes.Yellow, flecha);
+            g.DrawPolygon(Pens.Black, flecha); 
+        }
+
+
+
+
+    }
+
     }
 
 
-}
 

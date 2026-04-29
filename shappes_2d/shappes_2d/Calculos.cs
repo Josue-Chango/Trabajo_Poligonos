@@ -152,6 +152,18 @@ namespace shappes_2d
             return 10 * lado;
         }
 
+        public float CalcularAreaFlecha(float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
+        {
+            float area_cuerpo = base_cuerpo * altura_cuerpo;
+            float area_cabeza = (base_cabeza * altura_cabeza) / 2;
+            return area_cuerpo + area_cabeza;
+        }
 
+        public float CalcularPerimetroFlecha(float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
+        {
+            float perimetro_cuerpo = 2 * (base_cuerpo + altura_cuerpo);
+            float perimetro_cabeza = base_cabeza + 2*(float)(Math.Sqrt(Math.Pow(base_cabeza/2, 2) + Math.Pow(altura_cabeza, 2)));
+            return perimetro_cuerpo + perimetro_cabeza - altura_cuerpo;
+        }
     }
 }

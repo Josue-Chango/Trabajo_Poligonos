@@ -184,5 +184,12 @@ namespace shappes_2d
             frmDecagono.MdiParent = this;
             frmDecagono.Show();
         }
+
+        private void flechaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmFlecha frmFlecha = new FrmFlecha();
+            frmFlecha.MdiParent = this;
+            frmFlecha.Show();
+        }
     }
 }
