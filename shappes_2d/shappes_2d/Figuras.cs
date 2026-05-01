@@ -13,6 +13,7 @@ namespace shappes_2d
     }*/
     public class Figuras
     {
+        private Calculos calc = new Calculos();
         public float Weight { get; set; }
         public float Height { get; set; }
         public Figuras(float weight, float height)
@@ -75,225 +76,152 @@ namespace shappes_2d
                 g.FillPolygon(Brushes.LightBlue, puntos);
             }
         }
-
-        public void DibujarParalelogramo(Graphics g, int ladoA, int ladoB, double anguloGrados)
+        public void DibujarParalelogramo(Graphics g, float baseP, float ladoB, double anguloGrados)
         {
-            float a = ladoA;
-            float b = ladoB;
+            float b = baseP < 10 ? baseP * 10 : baseP;
+            float l = ladoB < 10 ? ladoB * 10 : ladoB;
+            double rad = anguloGrados * (Math.PI / 180.0);
 
-            // Aplicar escala si los valores son muy pequeños (como en tus otros métodos)
-            if (ladoA < 10 && ladoB < 10)
-            {
-                float escala = 10;
-                a = ladoA * escala;
-                b = ladoB * escala;
-            }
+            float dx = (float)(l * Math.Cos(rad));
+            float h = (float)(l * Math.Sin(rad));
 
-            // Punto de anclaje similar a tus otras figuras
-            float x = 350;
-            float y = 150;
+            PointF[] pts = {
+                new PointF(350, 200),
+                new PointF(350 + b, 200),
+                new PointF(350 + b + dx, 200 - h),
+                new PointF(350 + dx, 200 - h)
+            };
 
-            // Convertir ángulo a radianes
-            double radianes = anguloGrados * (Math.PI / 180.0);
+            g.FillPolygon(Brushes.LightBlue, pts);
+            g.DrawPolygon(new Pen(Color.Blue, 2), pts);
 
-            // Calcular desplazamiento para la inclinación
-            float desplazamientoX = (float)(b * Math.Cos(radianes));
-            float desplazamientoY = (float)(b * Math.Sin(radianes));
-
-            // Definir los 4 puntos del paralelogramo
-            PointF p1 = new PointF(x, y);
-            PointF p2 = new PointF(x + a, y);
-            PointF p3 = new PointF(x + a + desplazamientoX, y - desplazamientoY);
-            PointF p4 = new PointF(x + desplazamientoX, y - desplazamientoY);
-
-            PointF[] puntos = { p1, p2, p3, p4 };
-
-            // Configurar suavizado para que no se vea pixelado
-            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-
-            // Rellenar con el color azul claro que usas en el triángulo
-            g.FillPolygon(Brushes.LightBlue, puntos);
-
-            // Dibujar el borde (Pen azul de 2px como pediste)
-            using (Pen lapiz = new Pen(Color.Blue, 2))
-            {
-                g.DrawPolygon(lapiz, puntos);
-            }
+            float area = calc.CalcularAreaParalelogramo(baseP, (float)(ladoB * Math.Sin(rad)));
+            float peri = calc.CalcularPerimetroParalelogramo(baseP, ladoB);
+            g.DrawString($"A: {area:F2}\nP: {peri:F2}", SystemFonts.DefaultFont, Brushes.Black, 350, 210);
         }
 
         public void DibujarTrianguloEquilatero(Graphics g, float lado)
         {
-            float l = lado;
-            // Escala para valores pequeños (estilo que usas en tus otros métodos)
-            if (lado < 10) { l = lado * 10; }
+            float l = lado < 10 ? lado * 10 : lado;
+            float h = (float)((Math.Sqrt(3) / 2) * l);
 
-            float centerX = 350;
-            float centerY = 150;
+            PointF[] pts = {
+        new PointF(350, 150 - (h / 2)),
+        new PointF(350 + (l / 2), 150 + (h / 2)),
+        new PointF(350 - (l / 2), 150 + (h / 2))
+    };
 
-            // Altura de un triángulo equilátero: (raíz de 3 / 2) * lado
-            float altura = (float)((Math.Sqrt(3) / 2) * l);
+            g.FillPolygon(Brushes.LightCyan, pts);
+            g.DrawPolygon(Pens.Blue, pts);
 
-            // Definimos los 3 puntos para que quede centrado
-            PointF superior = new PointF(centerX, centerY - (altura / 2));
-            PointF inferiorDerecha = new PointF(centerX + (l / 2), centerY + (altura / 2));
-            PointF inferiorIzquierda = new PointF(centerX - (l / 2), centerY + (altura / 2));
-
-            PointF[] puntos = { superior, inferiorDerecha, inferiorIzquierda };
-
-            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-
-            // Relleno (puedes usar el azul que ya tenías)
-            g.FillPolygon(Brushes.LightBlue, puntos);
-
-            // Borde
-            using (Pen lapiz = new Pen(Color.Blue, 2))
-            {
-                g.DrawPolygon(lapiz, puntos);
-            }
+            g.DrawString($"A: {calc.CalcularAreaTrianguloEquilatero(lado):F2}\nP: {calc.CalcularPerimetroTrianguloEquilatero(lado):F2}",
+                SystemFonts.DefaultFont, Brushes.Black, 350, 70);
         }
 
-        public void DibujarTrianguloRectangulo(Graphics g, float baseTri, float alturaTri)
+        public void DibujarTrianguloRectangulo(Graphics g, float baseT, float alturaT)
         {
-            float b = baseTri;
-            float h = alturaTri;
+            float b = baseT < 10 ? baseT * 10 : baseT;
+            float h = alturaT < 10 ? alturaT * 10 : alturaT;
 
-            // Escala para valores pequeños
-            if (baseTri < 10 && alturaTri < 10)
-            {
-                b = baseTri * 10;
-                h = alturaTri * 10;
-            }
+            PointF[] pts = {
+                new PointF(350, 150),           
+                new PointF(350 + b, 150),       
+                new PointF(350, 150 - h)      
+            };
 
-            // Punto de referencia para la esquina del ángulo recto (350, 200)
-            float x = 350;
-            float y = 200;
+            g.FillPolygon(Brushes.LightGreen, pts);
+            g.DrawPolygon(Pens.Green, pts);
 
-            // Definimos los 3 vértices
-            PointF p1 = new PointF(x, y);              // Esquina del ángulo recto
-            PointF p2 = new PointF(x + b, y);          // Extremo de la base
-            PointF p3 = new PointF(x, y - h);          // Extremo de la altura
-
-            PointF[] puntos = { p1, p2, p3 };
-
-            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-
-            // Relleno
-            g.FillPolygon(Brushes.LightBlue, puntos);
-
-            // Borde
-            using (Pen lapiz = new Pen(Color.Blue, 2))
-            {
-                g.DrawPolygon(lapiz, puntos);
-            }
+            g.DrawString($"A: {calc.CalcularAreaTrianguloRectangulo(baseT, alturaT):F2}\nP: {calc.CalcularPerimetroTrianguloRectangulo(baseT, alturaT):F2}",
+                SystemFonts.DefaultFont, Brushes.Black, 350, 160);
         }
 
 
         public void DibujarTrianguloEscaleno(Graphics g, float ladoA, float ladoB, float ladoC)
         {
-            // Validar que el triángulo sea posible (Suma de dos lados > el tercero)
             if (ladoA + ladoB <= ladoC || ladoA + ladoC <= ladoB || ladoB + ladoC <= ladoA)
             {
-                return; // No se puede dibujar si no cumple la desigualdad triangular
+                return;
             }
 
             float a = ladoA;
             float b = ladoB;
             float c = ladoC;
-
-            // Escala para valores pequeños
             if (a < 15) { a *= 10; b *= 10; c *= 10; }
 
             float x = 350;
             float y = 200;
-
-            // Usamos la Ley de los Cosenos para encontrar la coordenada X y Y del tercer punto
-            // cos(A) = (b² + c² - a²) / (2bc)
             float cx = (b * b + c * c - a * a) / (2 * c);
             float cy = (float)Math.Sqrt(Math.Max(0, b * b - cx * cx));
 
-            // Definimos los 3 puntos
-            PointF p1 = new PointF(x, y);          // Origen
-            PointF p2 = new PointF(x + c, y);      // Fin del lado C (base)
-            PointF p3 = new PointF(x + cx, y - cy); // Vértice superior calculado
-
+            PointF p1 = new PointF(x, y);
+            PointF p2 = new PointF(x + c, y);
+            PointF p3 = new PointF(x + cx, y - cy);
             PointF[] puntos = { p1, p2, p3 };
 
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             g.FillPolygon(Brushes.LightBlue, puntos);
-
             using (Pen lapiz = new Pen(Color.Blue, 2))
             {
                 g.DrawPolygon(lapiz, puntos);
             }
+
+            float areaFinal = calc.CalcularAreaTrianguloEscaleno(ladoA, ladoB, ladoC);
+            float perimetroFinal = calc.CalcularPerimetroTrianguloEscaleno(ladoA, ladoB, ladoC);
+
+            Font fuente = new Font("Arial", 10, FontStyle.Bold);
+            g.DrawString($"Área: {areaFinal:F2}", fuente, Brushes.Black, x, y + 15);
+            g.DrawString($"Perímetro: {perimetroFinal:F2}", fuente, Brushes.Black, x, y + 35);
         }
 
         public void DibujarRombo(Graphics g, float lado, double anguloGrados)
         {
-            float l = lado;
-            // Escala para valores pequeños
-            if (lado < 10) { l = lado * 10; }
+            float l = lado < 10 ? lado * 10 : lado;
+            double rad = (anguloGrados / 2) * (Math.PI / 180.0);
 
-            // Punto central donde se dibujará el rombo
-            float centerX = 350;
-            float centerY = 150;
+            float diagMayorEscala = (float)(l * Math.Cos(rad) * 2);
+            float diagMenorEscala = (float)(l * Math.Sin(rad) * 2);
 
-            // Para un rombo "parado", calculamos los vértices arriba, abajo, izquierda y derecha.
-            // El ángulo aquí define qué tan "estirado" está el rombo.
-            double radianes = (anguloGrados / 2) * (Math.PI / 180.0);
+            PointF[] pts = {
+        new PointF(350, 150 - (diagMenorEscala/2)),
+        new PointF(350 + (diagMayorEscala/2), 150),
+        new PointF(350, 150 + (diagMenorEscala/2)),
+        new PointF(350 - (diagMayorEscala/2), 150)
+    };
 
-            // Calculamos las distancias desde el centro a las puntas
-            float semiDiagonalHorizontal = (float)(l * Math.Cos(radianes));
-            float semiDiagonalVertical = (float)(l * Math.Sin(radianes));
+            g.FillPolygon(Brushes.Thistle, pts);
+            g.DrawPolygon(new Pen(Color.Purple, 2), pts);
 
-            // Definimos los 4 puntos cardinales del rombo
-            PointF superior = new PointF(centerX, centerY - semiDiagonalVertical);
-            PointF derecha = new PointF(centerX + semiDiagonalHorizontal, centerY);
-            PointF inferior = new PointF(centerX, centerY + semiDiagonalVertical);
-            PointF izquierda = new PointF(centerX - semiDiagonalHorizontal, centerY);
-
-            PointF[] puntos = { superior, derecha, inferior, izquierda };
-
-            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-
-            // Relleno
-            g.FillPolygon(Brushes.Thistle, puntos);
-
-            // Contorno
-            using (Pen lapiz = new Pen(Color.Purple, 2))
-            {
-                g.DrawPolygon(lapiz, puntos);
-            }
+            // Cálculos (Usando diagonales reales para el área)
+            float dM = (float)(lado * Math.Cos(rad) * 2);
+            float dm = (float)(lado * Math.Sin(rad) * 2);
+            g.DrawString($"A: {calc.CalcularAreaRombo(dM, dm):F2}\nP: {calc.CalcularPerimetroRombo(lado):F2}",
+                SystemFonts.DefaultFont, Brushes.Black, 350, 80);
         }
 
-        public void DibujarCometa(Graphics g, float ancho, float alto)
+        public void DibujarCometa(Graphics g, float diagonalMayor, float diagonalMenor)
         {
-            float w = ancho;
-            float h = alto;
+            float dM = diagonalMayor < 10 ? diagonalMayor * 10 : diagonalMayor;
+            float dm = diagonalMenor < 10 ? diagonalMenor * 10 : diagonalMenor;
 
-            if (ancho < 10) { w *= 10; h *= 10; }
+            float cruce = dM * 0.25f;
 
-            float centerX = 350;
-            float centerY = 150;
+            PointF[] pts = {
+        new PointF(350, 150 - cruce),              // Arriba
+        new PointF(350 + (dm / 2), 150),           // Derecha
+        new PointF(350, 150 + (dM - cruce)),       // Abajo
+        new PointF(350 - (dm / 2), 150)            // Izquierda
+    };
 
-            // ELIMINADO: Ya no recibimos el parámetro. 
-            // Ahora lo calculamos nosotros (0.25f es el 25% del alto)
-            float pSup = h * 0.25f;
+            g.FillPolygon(Brushes.Lavender, pts);
+            g.DrawPolygon(new Pen(Color.DarkViolet, 2), pts);
 
-            PointF superior = new PointF(centerX, centerY - pSup);
-            PointF derecha = new PointF(centerX + (w / 2), centerY);
-            PointF inferior = new PointF(centerX, centerY + (h - pSup));
-            PointF izquierda = new PointF(centerX - (w / 2), centerY);
-
-            PointF[] puntos = { superior, derecha, inferior, izquierda };
-
-            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            g.FillPolygon(new SolidBrush(Color.FromArgb(188, 153, 203)), puntos);
-
-            using (Pen lapiz = new Pen(Color.FromArgb(60, 60, 90), 2))
-            {
-                g.DrawPolygon(lapiz, puntos);
-            }
+            // Cálculo del área
+            g.DrawString($"A: {calc.CalcularAreaCometa(diagonalMayor, diagonalMenor):F2}",
+                SystemFonts.DefaultFont, Brushes.Black, 350, 80);
         }
+
+
         public void DibujarHexagono(Graphics g, float lado)
         {
             float a = lado;

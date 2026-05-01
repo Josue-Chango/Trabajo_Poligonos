@@ -158,6 +158,45 @@ namespace shappes_2d
             float area_cabeza = (base_cabeza * altura_cabeza) / 2;
             return area_cuerpo + area_cabeza;
         }
+      
+        public float CalcularAreaParalelogramo(float baseP, float alturaP) => baseP * alturaP;
+        public float CalcularPerimetroParalelogramo(float ladoA, float ladoB) => 2 * (ladoA + ladoB);
+
+
+
+        public float CalcularAreaTrianguloEquilatero(float lado) => (float)((Math.Sqrt(3) / 4) * lado * lado);
+        public float CalcularPerimetroTrianguloEquilatero(float lado) => 3 * lado;
+
+
+
+      
+        public float CalcularAreaTrianguloEscaleno(float ladoA, float ladoB, float ladoC)
+        {
+         
+            float s = (ladoA + ladoB + ladoC) / 2; 
+            float area = (float)Math.Sqrt(s * (s - ladoA) * (s - ladoB) * (s - ladoC));
+            return area;
+        }
+
+        public float CalcularPerimetroTrianguloEscaleno(float ladoA, float ladoB, float ladoC)
+        {
+            return ladoA + ladoB + ladoC;
+        }
+
+        public float CalcularAreaTrianguloRectangulo(float baseT, float alturaT)
+            => (baseT * alturaT) / 2;
+
+        public float CalcularPerimetroTrianguloRectangulo(float baseT, float alturaT)
+        {
+            float hipotenusa = (float)Math.Sqrt(Math.Pow(baseT, 2) + Math.Pow(alturaT, 2));
+            return baseT + alturaT + hipotenusa;
+        }
+
+        public float CalcularAreaRombo(float diagM, float diagm) => (diagM * diagm) / 2;
+        public float CalcularPerimetroRombo(float lado) => 4 * lado;
+
+        public float CalcularAreaCometa(float diagonalMayor, float diagonalMenor)
+    => (diagonalMayor * diagonalMenor) / 2;
 
         public float CalcularPerimetroFlecha(float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
         {
