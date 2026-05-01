@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -640,6 +641,94 @@ namespace shappes_2d
 
                 g.FillPolygon(Brushes.Yellow, Flecha);
             }*/
+
+
+
+        public void DibujarEstrella(Graphics g, float radioExterior)
+        {
+            float rExt = radioExterior;
+            // Escala para valores pequeños
+            if (radioExterior < 10) { rExt = radioExterior * 10; }
+
+            // El radio interior suele ser aproximadamente el 40% del exterior
+            float rInt = rExt * 0.4f;
+
+            float centerX = 350;
+            float centerY = 150;
+
+            PointF[] puntos = new PointF[10];
+            double anguloInicial = -Math.PI / 2; // Empezar hacia arriba
+
+            for (int i = 0; i < 10; i++)
+            {
+                // Alternamos entre radio exterior e interior
+                float r = (i % 2 == 0) ? rExt : rInt;
+                double a = anguloInicial + i * (Math.PI / 5); // 36 grados por punto
+
+                puntos[i] = new PointF(
+                    centerX + (float)(r * Math.Cos(a)),
+                    centerY + (float)(r * Math.Sin(a))
+                );
+            }
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Relleno Amarillo
+            g.FillPolygon(Brushes.Yellow, puntos);
+
+            // Borde Dorado o Negro
+            using (Pen lapiz = new Pen(Color.Orange, 2))
+            {
+                g.DrawPolygon(lapiz, puntos);
+            }
+        }
+
+
+        public void DibujarCorazon(Graphics g, float tamaño)
+        {
+            float t = tamaño;
+            // Escala mínima
+            if (tamaño < 10) { t = tamaño * 10; }
+
+            float centerX = 350;
+            float centerY = 150;
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Definimos la ruta del corazón usando curvas de Bézier
+            // El corazón se compone de dos arcos superiores y una punta inferior
+            GraphicsPath path = new GraphicsPath();
+
+            // Punto superior central (la hendidura del corazón)
+            PointF topCenter = new PointF(centerX, centerY - (t * 0.3f));
+            // Punto inferior (la punta)
+            PointF bottomPoint = new PointF(centerX, centerY + (t * 0.7f));
+
+            // Lado izquierdo del corazón
+            path.AddBezier(
+                topCenter,
+                new PointF(centerX - t, centerY - t), // Control 1 (hacia afuera y arriba)
+                new PointF(centerX - t, centerY + (t * 0.4f)), // Control 2 (hacia afuera)
+                bottomPoint // Destino
+            );
+
+            // Lado derecho del corazón (simétrico)
+            path.AddBezier(
+                bottomPoint,
+                new PointF(centerX + t, centerY + (t * 0.4f)), // Control 1
+                new PointF(centerX + t, centerY - t), // Control 2
+                topCenter // Destino
+            );
+
+            // Relleno Rojo
+            g.FillPath(Brushes.Red, path);
+
+            // Borde Rojo Oscuro
+            using (Pen lapiz = new Pen(Color.DarkRed, 2))
+            {
+                g.DrawPath(lapiz, path);
+            }
+        }
 
         public void DibujarFlecha(Graphics g, float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
         {

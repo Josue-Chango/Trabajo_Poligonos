@@ -60,6 +60,12 @@
     <Compile Include="FrmCometa.Designer.cs">
       <DependentUpon>FrmCometa.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCorazon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCorazon.Designer.cs">
+      <DependentUpon>FrmCorazon.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCuadrado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,12 @@
     </Compile>
     <Compile Include="FrmElipse.Designer.cs">
       <DependentUpon>FrmElipse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEstrella.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEstrella.Designer.cs">
+      <DependentUpon>FrmEstrella.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmExample.cs">
       <SubType>Form</SubType>
@@ -189,6 +201,9 @@
     <EmbeddedResource Include="FrmCometa.resx">
       <DependentUpon>FrmCometa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCorazon.resx">
+      <DependentUpon>FrmCorazon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCuadrado.resx">
       <DependentUpon>FrmCuadrado.cs</DependentUpon>
     </EmbeddedResource>
@@ -197,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmElipse.resx">
       <DependentUpon>FrmElipse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEstrella.resx">
+      <DependentUpon>FrmEstrella.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmExample.resx">
       <DependentUpon>FrmExample.cs</DependentUpon>

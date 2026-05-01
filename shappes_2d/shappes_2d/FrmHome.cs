@@ -191,5 +191,19 @@ namespace shappes_2d
             frmFlecha.MdiParent = this;
             frmFlecha.Show();
         }
+
+        private void estrellaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEstrella frmEstrella = new FrmEstrella();
+            frmEstrella.MdiParent = this;
+            frmEstrella.Show();
+        }
+
+        private void corazónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCorazon frmCorazon = new FrmCorazon();
+            frmCorazon.MdiParent = this;
+            frmCorazon.Show();
+        }
     }
 }
