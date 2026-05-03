@@ -198,6 +198,48 @@ namespace shappes_2d
         public float CalcularAreaCometa(float diagonalMayor, float diagonalMenor)
     => (diagonalMayor * diagonalMenor) / 2;
 
+
+
+        public float CalcularAreaEstrella(float radioExterior)
+        {
+            return (float)(3.708 * Math.Pow(radioExterior * 0.4f, 2));
+        }
+        public float CalcularPerimetroEstrella(float radioExterior)
+        {
+            return radioExterior * 5.87f;
+        }
+
+
+        public float CalcularAreaCorazon(float tamaño)
+        {
+            return (float)(Math.Pow(tamaño, 2) * 0.75);
+        }
+
+        public float CalcularAreaLuna(float radio)
+        {
+            return (float)(Math.PI * Math.Pow(radio, 2) * 0.4);
+        }
+
+        public float CalcularAreaCruz(float tamañoBrazo)
+        {
+            return 5 * (tamañoBrazo * tamañoBrazo);
+        }
+        public float CalcularPerimetroCruz(float tamañoBrazo)
+        {
+            return 12 * tamañoBrazo;
+        }
+
+        public float CalcularAreaPie(float radio, float grados)
+        {
+            return (float)((Math.PI * Math.Pow(radio, 2) * grados) / 360);
+        }
+        public float CalcularPerimetroPie(float radio, float grados)
+        {
+            float arco = (float)((2 * Math.PI * radio * grados) / 360);
+            return arco + (2 * radio);
+        }
+
+
         public float CalcularPerimetroFlecha(float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
         {
             float perimetro_cuerpo = 2 * (base_cuerpo + altura_cuerpo);

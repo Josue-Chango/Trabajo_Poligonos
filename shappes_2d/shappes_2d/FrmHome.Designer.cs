@@ -95,28 +95,28 @@
             // miExampleToolStripMenuItem
             // 
             this.miExampleToolStripMenuItem.Name = "miExampleToolStripMenuItem";
-            this.miExampleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miExampleToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miExampleToolStripMenuItem.Text = "Example";
             this.miExampleToolStripMenuItem.Click += new System.EventHandler(this.miExampleToolStripMenuItem_Click);
             // 
             // miRectanguloToolStripMenuItem
             // 
             this.miRectanguloToolStripMenuItem.Name = "miRectanguloToolStripMenuItem";
-            this.miRectanguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miRectanguloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miRectanguloToolStripMenuItem.Text = "Rectangulo";
             this.miRectanguloToolStripMenuItem.Click += new System.EventHandler(this.rectToolStripMenuItem_Click);
             // 
             // miTrianguloToolStripMenuItem
             // 
             this.miTrianguloToolStripMenuItem.Name = "miTrianguloToolStripMenuItem";
-            this.miTrianguloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miTrianguloToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miTrianguloToolStripMenuItem.Text = "Triangulo";
             this.miTrianguloToolStripMenuItem.Click += new System.EventHandler(this.miTrianguloToolStripMenuItem_Click);
             // 
             // miHexagonoToolStripMenuItem
             // 
             this.miHexagonoToolStripMenuItem.Name = "miHexagonoToolStripMenuItem";
-            this.miHexagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.miHexagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.miHexagonoToolStripMenuItem.Text = "Hexagono";
             this.miHexagonoToolStripMenuItem.Click += new System.EventHandler(this.miHexagonoToolStripMenuItem_Click);
             // 
@@ -246,42 +246,42 @@
             // pentagonoToolStripMenuItem
             // 
             this.pentagonoToolStripMenuItem.Name = "pentagonoToolStripMenuItem";
-            this.pentagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pentagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.pentagonoToolStripMenuItem.Text = "Pentagono";
             this.pentagonoToolStripMenuItem.Click += new System.EventHandler(this.pentagonoToolStripMenuItem_Click);
             // 
             // hexagonoToolStripMenuItem
             // 
             this.hexagonoToolStripMenuItem.Name = "hexagonoToolStripMenuItem";
-            this.hexagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hexagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.hexagonoToolStripMenuItem.Text = "Hexagono";
             this.hexagonoToolStripMenuItem.Click += new System.EventHandler(this.hexagonoToolStripMenuItem_Click);
             // 
             // heptagonoToolStripMenuItem
             // 
             this.heptagonoToolStripMenuItem.Name = "heptagonoToolStripMenuItem";
-            this.heptagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.heptagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.heptagonoToolStripMenuItem.Text = "Heptagono";
             this.heptagonoToolStripMenuItem.Click += new System.EventHandler(this.heptagonoToolStripMenuItem_Click);
             // 
             // octagonoToolStripMenuItem
             // 
             this.octagonoToolStripMenuItem.Name = "octagonoToolStripMenuItem";
-            this.octagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.octagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.octagonoToolStripMenuItem.Text = "Octagono";
             this.octagonoToolStripMenuItem.Click += new System.EventHandler(this.octagonoToolStripMenuItem_Click);
             // 
             // nonagonoToolStripMenuItem
             // 
             this.nonagonoToolStripMenuItem.Name = "nonagonoToolStripMenuItem";
-            this.nonagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nonagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.nonagonoToolStripMenuItem.Text = "Nonagono";
             this.nonagonoToolStripMenuItem.Click += new System.EventHandler(this.nonagonoToolStripMenuItem_Click);
             // 
             // decagonoToolStripMenuItem
             // 
             this.decagonoToolStripMenuItem.Name = "decagonoToolStripMenuItem";
-            this.decagonoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.decagonoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.decagonoToolStripMenuItem.Text = "Decagono";
             this.decagonoToolStripMenuItem.Click += new System.EventHandler(this.decagonoToolStripMenuItem_Click);
             // 
@@ -317,18 +317,21 @@
             this.lunaToolStripMenuItem.Name = "lunaToolStripMenuItem";
             this.lunaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lunaToolStripMenuItem.Text = "Luna";
+            this.lunaToolStripMenuItem.Click += new System.EventHandler(this.lunaToolStripMenuItem_Click);
             // 
             // cruzToolStripMenuItem
             // 
             this.cruzToolStripMenuItem.Name = "cruzToolStripMenuItem";
             this.cruzToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cruzToolStripMenuItem.Text = "Cruz";
+            this.cruzToolStripMenuItem.Click += new System.EventHandler(this.cruzToolStripMenuItem_Click);
             // 
             // pastelToolStripMenuItem
             // 
             this.pastelToolStripMenuItem.Name = "pastelToolStripMenuItem";
             this.pastelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pastelToolStripMenuItem.Text = "Pastel";
+            this.pastelToolStripMenuItem.Click += new System.EventHandler(this.pastelToolStripMenuItem_Click);
             // 
             // flechaToolStripMenuItem
             // 
@@ -345,7 +348,7 @@
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmHome";
             this.Text = "Home";
             this.Load += new System.EventHandler(this.FrmHome_Load);

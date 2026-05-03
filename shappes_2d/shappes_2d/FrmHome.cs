@@ -205,5 +205,26 @@ namespace shappes_2d
             frmCorazon.MdiParent = this;
             frmCorazon.Show();
         }
+
+        private void lunaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmLuna frmLuna = new FrmLuna();
+            frmLuna.MdiParent = this;
+            frmLuna.Show();
+        }
+
+        private void cruzToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCruz frmCruz = new FrmCruz();
+            frmCruz.MdiParent = this;
+            frmCruz.Show();
+        }
+
+        private void pastelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmPie frmPie = new FrmPie();
+            frmPie.MdiParent = this;
+            frmPie.Show();
+        }
     }
 }

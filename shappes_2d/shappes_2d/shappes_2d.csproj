@@ -66,6 +66,12 @@
     <Compile Include="FrmCorazon.Designer.cs">
       <DependentUpon>FrmCorazon.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCruz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCruz.Designer.cs">
+      <DependentUpon>FrmCruz.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCuadrado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,12 @@
     <Compile Include="FrmHome.Designer.cs">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLuna.Designer.cs">
+      <DependentUpon>FrmLuna.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmNonagono.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +161,12 @@
     </Compile>
     <Compile Include="FrmPentagono.Designer.cs">
       <DependentUpon>FrmPentagono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPie.Designer.cs">
+      <DependentUpon>FrmPie.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRectangulo.cs">
       <SubType>Form</SubType>
@@ -204,6 +222,9 @@
     <EmbeddedResource Include="FrmCorazon.resx">
       <DependentUpon>FrmCorazon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCruz.resx">
+      <DependentUpon>FrmCruz.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCuadrado.resx">
       <DependentUpon>FrmCuadrado.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,6 +252,9 @@
     <EmbeddedResource Include="FrmHome.resx">
       <DependentUpon>FrmHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmLuna.resx">
+      <DependentUpon>FrmLuna.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmNonagono.resx">
       <DependentUpon>FrmNonagono.cs</DependentUpon>
     </EmbeddedResource>
@@ -245,6 +269,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPentagono.resx">
       <DependentUpon>FrmPentagono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPie.resx">
+      <DependentUpon>FrmPie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRectangulo.resx">
       <DependentUpon>FrmRectangulo.cs</DependentUpon>

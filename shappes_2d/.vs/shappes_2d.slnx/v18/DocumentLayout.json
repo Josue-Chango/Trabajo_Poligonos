@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmcorazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmcorazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmcorazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmcorazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\figuras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmflecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmflecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\calculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmpie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmpie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmpie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmpie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmcruz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmcruz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmcruz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmcruz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmluna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmluna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|c:\\users\\micha\\onedrive\\escritorio\\computacion grafica\\tarea\\trabajo_poligonos\\shappes_2d\\shappes_2d\\frmluna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmluna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmcorazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmcorazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmcorazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmcorazon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmestrella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\frmflecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C49EBB7-3764-45FD-B408-4B97FD51367E}|shappes_2d\\shappes_2d.csproj|solutionrelative:shappes_2d\\frmflecha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,33 +74,85 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Calculos.cs",
               "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs",
               "RelativeDocumentMoniker": "shappes_2d\\Calculos.cs",
               "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Calculos.cs",
               "RelativeToolTip": "shappes_2d\\Calculos.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAqwMYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAkwMgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T16:07:29.498Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmCorazon.cs",
-              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCorazon.cs",
-              "RelativeDocumentMoniker": "shappes_2d\\FrmCorazon.cs",
-              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCorazon.cs",
-              "RelativeToolTip": "shappes_2d\\FrmCorazon.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T17:00:51.103Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "FrmHome.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmHome.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
+              "RelativeToolTip": "shappes_2d\\FrmHome.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAgwOAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:02:26.795Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmPie.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmPie.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmPie.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmPie.cs [Dise\u00F1o]",
+              "RelativeToolTip": "shappes_2d\\FrmPie.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T19:34:14.056Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Figuras.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\Figuras.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
+              "RelativeToolTip": "shappes_2d\\Figuras.cs",
+              "ViewState": "AgIAAHECAAAAAAAAAAAgwJICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T01:06:49.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmPie.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmPie.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmPie.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmPie.cs",
+              "RelativeToolTip": "shappes_2d\\FrmPie.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T19:39:45.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmCruz.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCruz.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmCruz.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCruz.cs [Dise\u00F1o]",
+              "RelativeToolTip": "shappes_2d\\FrmCruz.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T19:24:43.145Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FrmHome.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmHome.cs",
@@ -88,45 +164,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmHome.cs",
-              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
-              "RelativeDocumentMoniker": "shappes_2d\\FrmHome.cs",
-              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmHome.cs",
-              "RelativeToolTip": "shappes_2d\\FrmHome.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAQwNEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "FrmCruz.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCruz.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmCruz.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCruz.cs",
+              "RelativeToolTip": "shappes_2d\\FrmCruz.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wB8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T01:02:26.795Z",
+              "WhenOpened": "2026-05-03T19:26:51.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Figuras.cs",
-              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
-              "RelativeDocumentMoniker": "shappes_2d\\Figuras.cs",
-              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\Figuras.cs",
-              "RelativeToolTip": "shappes_2d\\Figuras.cs",
-              "ViewState": "AgIAAMUCAAAAAAAAAAAcwNoCAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "FrmLuna.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmLuna.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmLuna.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmLuna.cs",
+              "RelativeToolTip": "shappes_2d\\FrmLuna.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwCUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T01:06:49.506Z",
+              "WhenOpened": "2026-05-03T19:18:42.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "FrmLuna.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmLuna.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmLuna.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmLuna.cs [Dise\u00F1o]",
+              "RelativeToolTip": "shappes_2d\\FrmLuna.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T19:17:48.144Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmCorazon.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCorazon.cs",
+              "RelativeDocumentMoniker": "shappes_2d\\FrmCorazon.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCorazon.cs",
+              "RelativeToolTip": "shappes_2d\\FrmCorazon.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:00:51.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FrmCorazon.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCorazon.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmCorazon.cs",
               "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmCorazon.cs [Dise\u00F1o]",
               "RelativeToolTip": "shappes_2d\\FrmCorazon.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T16:58:35.406Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-05-01T16:58:35.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "FrmEstrella.cs",
               "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmEstrella.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmEstrella.cs",
@@ -134,32 +233,29 @@
               "RelativeToolTip": "shappes_2d\\FrmEstrella.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAIwCkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T16:51:55.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T16:51:55.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "FrmEstrella.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmEstrella.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmEstrella.cs",
               "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmEstrella.cs [Dise\u00F1o]",
               "RelativeToolTip": "shappes_2d\\FrmEstrella.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T16:50:07.125Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-05-01T16:50:07.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "FrmFlecha.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmFlecha.cs",
               "RelativeDocumentMoniker": "shappes_2d\\FrmFlecha.cs",
               "ToolTip": "C:\\Users\\micha\\OneDrive\\Escritorio\\Computacion Grafica\\Tarea\\Trabajo_Poligonos\\shappes_2d\\shappes_2d\\FrmFlecha.cs [Dise\u00F1o]",
               "RelativeToolTip": "shappes_2d\\FrmFlecha.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T16:50:21.735Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-05-01T16:50:21.735Z"
             }
           ]
         }

@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
 namespace shappes_2d
 {
     /*internal class Figuras
@@ -644,90 +638,104 @@ namespace shappes_2d
 
 
 
+        // --- ESTRELLA ---
         public void DibujarEstrella(Graphics g, float radioExterior)
         {
-            float rExt = radioExterior;
-            // Escala para valores pequeños
-            if (radioExterior < 10) { rExt = radioExterior * 10; }
-
-            // El radio interior suele ser aproximadamente el 40% del exterior
+            float rExt = radioExterior < 10 ? radioExterior * 10 : radioExterior;
             float rInt = rExt * 0.4f;
-
-            float centerX = 350;
-            float centerY = 150;
-
+            float centerX = 350, centerY = 150;
             PointF[] puntos = new PointF[10];
-            double anguloInicial = -Math.PI / 2; // Empezar hacia arriba
+            double anguloInicial = -Math.PI / 2;
 
             for (int i = 0; i < 10; i++)
             {
-                // Alternamos entre radio exterior e interior
                 float r = (i % 2 == 0) ? rExt : rInt;
-                double a = anguloInicial + i * (Math.PI / 5); // 36 grados por punto
-
-                puntos[i] = new PointF(
-                    centerX + (float)(r * Math.Cos(a)),
-                    centerY + (float)(r * Math.Sin(a))
-                );
+                double a = anguloInicial + i * (Math.PI / 5);
+                puntos[i] = new PointF(centerX + (float)(r * Math.Cos(a)), centerY + (float)(r * Math.Sin(a)));
             }
-
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-
-            // Relleno Amarillo
             g.FillPolygon(Brushes.Yellow, puntos);
+            g.DrawPolygon(new Pen(Color.Orange, 2), puntos);
 
-            // Borde Dorado o Negro
-            using (Pen lapiz = new Pen(Color.Orange, 2))
-            {
-                g.DrawPolygon(lapiz, puntos);
-            }
+            g.DrawString($"A: {calc.CalcularAreaEstrella(radioExterior):F2}", SystemFonts.DefaultFont, Brushes.Black, centerX - 30, centerY + rExt + 10);
         }
 
-
+        // --- CORAZÓN ---
         public void DibujarCorazon(Graphics g, float tamaño)
         {
-            float t = tamaño;
-            // Escala mínima
-            if (tamaño < 10) { t = tamaño * 10; }
-
-            float centerX = 350;
-            float centerY = 150;
-
+            float t = tamaño < 10 ? tamaño * 10 : tamaño;
+            float centerX = 350, centerY = 150;
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-
-            // Definimos la ruta del corazón usando curvas de Bézier
-            // El corazón se compone de dos arcos superiores y una punta inferior
             GraphicsPath path = new GraphicsPath();
-
-            // Punto superior central (la hendidura del corazón)
             PointF topCenter = new PointF(centerX, centerY - (t * 0.3f));
-            // Punto inferior (la punta)
             PointF bottomPoint = new PointF(centerX, centerY + (t * 0.7f));
 
-            // Lado izquierdo del corazón
-            path.AddBezier(
-                topCenter,
-                new PointF(centerX - t, centerY - t), // Control 1 (hacia afuera y arriba)
-                new PointF(centerX - t, centerY + (t * 0.4f)), // Control 2 (hacia afuera)
-                bottomPoint // Destino
-            );
+            path.AddBezier(topCenter, new PointF(centerX - t, centerY - t), new PointF(centerX - t, centerY + (t * 0.4f)), bottomPoint);
+            path.AddBezier(bottomPoint, new PointF(centerX + t, centerY + (t * 0.4f)), new PointF(centerX + t, centerY - t), topCenter);
 
-            // Lado derecho del corazón (simétrico)
-            path.AddBezier(
-                bottomPoint,
-                new PointF(centerX + t, centerY + (t * 0.4f)), // Control 1
-                new PointF(centerX + t, centerY - t), // Control 2
-                topCenter // Destino
-            );
-
-            // Relleno Rojo
             g.FillPath(Brushes.Red, path);
+            g.DrawPath(new Pen(Color.DarkRed, 2), path);
 
-            // Borde Rojo Oscuro
-            using (Pen lapiz = new Pen(Color.DarkRed, 2))
-            {
-                g.DrawPath(lapiz, path);
-            }
+        
+            g.DrawString($"A: {calc.CalcularAreaCorazon(tamaño):F2}", SystemFonts.DefaultFont, Brushes.Black, centerX - 20, centerY + t + 5);
+        }
+
+        // --- LUNA ---
+        public void DibujarLuna(Graphics g, float radio)
+        {
+            float r = radio < 10 ? radio * 10 : radio;
+            float centerX = 350, centerY = 150;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            GraphicsPath path = new GraphicsPath();
+            RectangleF rectExterior = new RectangleF(centerX - r, centerY - r, r * 2, r * 2);
+            RectangleF rectInterior = new RectangleF(centerX - (r * 0.6f), centerY - r, r * 2, r * 2);
+
+            path.AddArc(rectExterior, 90, 180);
+            path.AddArc(rectInterior, 270, -180);
+            path.CloseFigure();
+
+            g.FillPath(new SolidBrush(Color.FromArgb(190, 215, 110)), path);
+            g.DrawPath(new Pen(Color.FromArgb(45, 50, 75), 3), path);
+
+         
+            g.DrawString($"A: {calc.CalcularAreaLuna(radio):F2}", SystemFonts.DefaultFont, Brushes.Black, centerX - r, centerY + r + 5);
+        }
+
+        // --- CRUZ ---
+        public void DibujarCruz(Graphics g, float tamañoBrazo)
+        {
+            float t = tamañoBrazo < 10 ? tamañoBrazo * 10 : tamañoBrazo;
+            float centerX = 350, centerY = 150;
+            PointF[] puntos = new PointF[] {
+        new PointF(centerX - (t / 2), centerY - (t * 1.5f)), new PointF(centerX + (t / 2), centerY - (t * 1.5f)),
+        new PointF(centerX + (t / 2), centerY - (t / 2)),    new PointF(centerX + (t * 1.5f), centerY - (t / 2)),
+        new PointF(centerX + (t * 1.5f), centerY + (t / 2)), new PointF(centerX + (t / 2), centerY + (t / 2)),
+        new PointF(centerX + (t / 2), centerY + (t * 1.5f)), new PointF(centerX - (t / 2), centerY + (t * 1.5f)),
+        new PointF(centerX - (t / 2), centerY + (t / 2)),    new PointF(centerX - (t * 1.5f), centerY + (t / 2)),
+        new PointF(centerX - (t * 1.5f), centerY - (t / 2)), new PointF(centerX - (t / 2), centerY - (t / 2))
+    };
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            g.FillPolygon(new SolidBrush(Color.FromArgb(40, 160, 220)), puntos);
+            g.DrawPolygon(new Pen(Color.FromArgb(40, 50, 70), 3), puntos);
+
+          
+            g.DrawString($"A: {calc.CalcularAreaCruz(tamañoBrazo)} P: {calc.CalcularPerimetroCruz(tamañoBrazo)}", SystemFonts.DefaultFont, Brushes.Black, centerX - t, centerY + (t * 1.7f));
+        }
+
+        // --- PIE (Gráfico de Tarta) ---
+        public void DibujarPie(Graphics g, float radio, float grados)
+        {
+            float r = radio < 10 ? radio * 10 : radio;
+            float centerX = 350, centerY = 150;
+            Rectangle rect = new Rectangle((int)(centerX - r), (int)(centerY - r), (int)(r * 2), (int)(r * 2));
+
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            g.FillPie(new SolidBrush(Color.FromArgb(180, 160, 130)), rect, 0, grados);
+            g.DrawPie(new Pen(Color.FromArgb(60, 55, 80), 3), rect, 0, grados);
+
+        
+            g.DrawString($"A: {calc.CalcularAreaPie(radio, grados):F2}", SystemFonts.DefaultFont, Brushes.Black, centerX - r, centerY + r + 5);
         }
 
         public void DibujarFlecha(Graphics g, float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
