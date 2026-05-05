@@ -48,17 +48,21 @@ namespace shappes_2d
                 Invalidate();
                 pctGrafico.Invalidate();
             }
-            else if (int.Parse(txtAlturaCuerpo.Text) >= int.Parse(txtBaseCuerpo.Text) )
+            else if (Validador.Validar<int>(txtBaseCuerpo.Text) && Validador.Validar<int>(txtBaseCabeza.Text) && Validador.Validar<int>(txtAlturaCuerpo.Text) && Validador.Validar<int>(txtAlturaCabeza.Text) && int.Parse(txtAlturaCuerpo.Text) >= int.Parse(txtBaseCuerpo.Text))
             {
                 MessageBox.Show("Campo no valido, La altura del cuerpo debe ser menor que la base del cuerpo");
             }
-            else if (int.Parse(txtAlturaCabeza.Text) <= int.Parse(txtBaseCabeza.Text))
+            else if (Validador.Validar<int>(txtBaseCuerpo.Text) && Validador.Validar<int>(txtBaseCabeza.Text) && Validador.Validar<int>(txtAlturaCuerpo.Text) && Validador.Validar<int>(txtAlturaCabeza.Text) && int.Parse(txtAlturaCabeza.Text) <= int.Parse(txtBaseCabeza.Text))
             {
                 MessageBox.Show("Campo no valido, la altura de la cabeza debe ser mayor que la base de la cabeza");
             }
-            else if (int.Parse(txtAlturaCuerpo.Text) >= int.Parse(txtBaseCabeza.Text))
+            else if (Validador.Validar<int>(txtBaseCuerpo.Text) && Validador.Validar<int>(txtBaseCabeza.Text) && Validador.Validar<int>(txtAlturaCuerpo.Text) && Validador.Validar<int>(txtAlturaCabeza.Text) && int.Parse(txtAlturaCuerpo.Text) >= int.Parse(txtBaseCabeza.Text))
             {
                 MessageBox.Show("Campo no valido, la base de la Cabeza debe ser mayor que la altura de la Cabeza");
+            }
+            else
+            {
+                MessageBox.Show("Campo no valido, el campo debe llenarse con numeros positivos o debe existir el trapecio");
             }
         }
 

@@ -202,16 +202,15 @@ namespace shappes_2d
             float cruce = dM * 0.25f;
 
             PointF[] pts = {
-        new PointF(350, 150 - cruce),              // Arriba
-        new PointF(350 + (dm / 2), 150),           // Derecha
-        new PointF(350, 150 + (dM - cruce)),       // Abajo
-        new PointF(350 - (dm / 2), 150)            // Izquierda
+        new PointF(350, 150 - cruce),             
+        new PointF(350 + (dm / 2), 150),          
+        new PointF(350, 150 + (dM - cruce)),       
+        new PointF(350 - (dm / 2), 150)           
     };
 
             g.FillPolygon(Brushes.Lavender, pts);
             g.DrawPolygon(new Pen(Color.DarkViolet, 2), pts);
 
-            // Cálculo del área
             g.DrawString($"A: {calc.CalcularAreaCometa(diagonalMayor, diagonalMenor):F2}",
                 SystemFonts.DefaultFont, Brushes.Black, 350, 80);
         }
@@ -398,7 +397,7 @@ namespace shappes_2d
 
             for (int i = 0; i < 5; i++)
             {
-                float angle = (float)(i * 2 * Math.PI / 5);
+                float angle = (float)(i * 2 * Math.PI / 5)+ (float)(Math.PI / 2);
                 puntos[i] = new PointF(
                     centro.X + a * (float)Math.Cos(angle),
                     centro.Y + a * (float)Math.Sin(angle)
@@ -621,7 +620,6 @@ namespace shappes_2d
         /*public void DibujarFlecha(Graphics g, float base_cuerpo, float altura_cuerpo, float base_cabeza, float altura_cabeza)
         {
 
-            //Flecha Horizontal apuntando a la derecha
             PointF punto1 = new PointF(350, 150); 
             PointF punto2 = new PointF(350 + base_cuerpo, 150);
             PointF punto3 = new PointF(350 + base_cuerpo, 150 + (base_cabeza / 2) - base_cuerpo);
@@ -629,7 +627,7 @@ namespace shappes_2d
             PointF punto5 = new PointF(350 + base_cuerpo, 150 - (base_cabeza - (base_cabeza / 2) - base_cuerpo)); 
             PointF punto6 = new PointF(350 + base_cuerpo, 150 - base_cabeza); 
             PointF punto7 = new PointF(350, 150 - altura_cabeza); 
-            //PointF punto8 = new PointF(350, 150); // Punto superior del cuerpo
+            //PointF punto8 = new PointF(350, 150);
 
             PointF[] Flecha = {punto1, punto2, punto3, punto4, punto5, punto6, punto7};
 
@@ -661,9 +659,9 @@ namespace shappes_2d
         }
 
         // --- CORAZÓN ---
-        public void DibujarCorazon(Graphics g, float tamaño)
+        public void DibujarCorazon(Graphics g, float tamano)
         {
-            float t = tamaño < 10 ? tamaño * 10 : tamaño;
+            float t = tamano < 10 ? tamano * 10 : tamano;
             float centerX = 350, centerY = 150;
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             GraphicsPath path = new GraphicsPath();
@@ -677,7 +675,7 @@ namespace shappes_2d
             g.DrawPath(new Pen(Color.DarkRed, 2), path);
 
         
-            g.DrawString($"A: {calc.CalcularAreaCorazon(tamaño):F2}", SystemFonts.DefaultFont, Brushes.Black, centerX - 20, centerY + t + 5);
+            g.DrawString($"A: {calc.CalcularAreaCorazon(tamano):F2}", SystemFonts.DefaultFont, Brushes.Black, centerX - 20, centerY + t + 5);
         }
 
         // --- LUNA ---
@@ -702,9 +700,9 @@ namespace shappes_2d
         }
 
         // --- CRUZ ---
-        public void DibujarCruz(Graphics g, float tamañoBrazo)
+        public void DibujarCruz(Graphics g, float tamanoBrazo)
         {
-            float t = tamañoBrazo < 10 ? tamañoBrazo * 10 : tamañoBrazo;
+            float t = tamanoBrazo < 10 ? tamanoBrazo * 10 : tamanoBrazo;
             float centerX = 350, centerY = 150;
             PointF[] puntos = new PointF[] {
         new PointF(centerX - (t / 2), centerY - (t * 1.5f)), new PointF(centerX + (t / 2), centerY - (t * 1.5f)),
@@ -720,7 +718,7 @@ namespace shappes_2d
             g.DrawPolygon(new Pen(Color.FromArgb(40, 50, 70), 3), puntos);
 
           
-            g.DrawString($"A: {calc.CalcularAreaCruz(tamañoBrazo)} P: {calc.CalcularPerimetroCruz(tamañoBrazo)}", SystemFonts.DefaultFont, Brushes.Black, centerX - t, centerY + (t * 1.7f));
+            g.DrawString($"A: {calc.CalcularAreaCruz(tamanoBrazo)} P: {calc.CalcularPerimetroCruz(tamanoBrazo)}", SystemFonts.DefaultFont, Brushes.Black, centerX - t, centerY + (t * 1.7f));
         }
 
         // --- PIE (Gráfico de Tarta) ---
@@ -747,13 +745,13 @@ namespace shappes_2d
             float mitad_cuerpo = altura_cuerpo / 2;
             float mitad_cabeza = altura_cabeza / 2;
 
-            PointF p1 = new PointF(x, y - mitad_cuerpo);                        
-            PointF p2 = new PointF(x + base_cuerpo, y - mitad_cuerpo);          
-            PointF p3 = new PointF(x + base_cuerpo, y - mitad_cabeza);       
-            PointF p4 = new PointF(x + base_cuerpo + base_cabeza, y);           
-            PointF p5 = new PointF(x + base_cuerpo, y + mitad_cabeza);         
-            PointF p6 = new PointF(x + base_cuerpo, y + mitad_cuerpo);          
-            PointF p7 = new PointF(x, y + mitad_cuerpo);                       
+            PointF p1 = new PointF(x, y + mitad_cuerpo);                        
+            PointF p2 = new PointF(x - base_cuerpo, y + mitad_cuerpo);          
+            PointF p3 = new PointF(x - base_cuerpo, y + mitad_cabeza);       
+            PointF p4 = new PointF(x - base_cuerpo - base_cabeza, y);           
+            PointF p5 = new PointF(x - base_cuerpo, y - mitad_cabeza);         
+            PointF p6 = new PointF(x - base_cuerpo, y - mitad_cuerpo);          
+            PointF p7 = new PointF(x, y - mitad_cuerpo);                       
 
             PointF[] flecha = { p1, p2, p3, p4, p5, p6, p7 };
 
