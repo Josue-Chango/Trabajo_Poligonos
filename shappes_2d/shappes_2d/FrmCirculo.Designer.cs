@@ -36,6 +36,8 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.lblArea = new System.Windows.Forms.Label();
             this.lblPerimetro = new System.Windows.Forms.Label();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // lablIngresar
@@ -111,11 +113,24 @@
             this.lblPerimetro.TabIndex = 7;
             this.lblPerimetro.Text = "Perimetro: ";
             // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(12, 186);
+            this.trackBar1.Maximum = 50;
+            this.trackBar1.Minimum = 1;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(104, 45);
+            this.trackBar1.TabIndex = 11;
+            this.trackBar1.Value = 10;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            this.trackBar1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.trackBar1_KeyDown);
+            // 
             // FrmCirculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.lblPerimetro);
             this.Controls.Add(this.lblArea);
             this.Controls.Add(this.btnSalir);
@@ -127,6 +142,8 @@
             this.Name = "FrmCirculo";
             this.Text = "Circulo";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmCirculo_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmCirculo_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -142,5 +159,6 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Label lblArea;
         private System.Windows.Forms.Label lblPerimetro;
+        private System.Windows.Forms.TrackBar trackBar1;
     }
 }

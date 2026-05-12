@@ -13,12 +13,14 @@ namespace shappes_2d
     {
         public static bool Validar<T>(string texto)
         {
+            // validar vacío o espacios
             if (string.IsNullOrWhiteSpace(texto))
                 return false;
 
             if (texto.Contains(" "))
                 return false;
 
+            // validar según el tipo
             if (typeof(T) == typeof(int))
             {
                 int num;

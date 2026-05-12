@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace shappes_2d
 {
@@ -15,9 +16,18 @@ namespace shappes_2d
         float anchoCometa = 0;
         float altoCometa = 0;
         bool dibujar = false;
+
+        Figuras figuras = new Figuras();
+
+        Movimiento movimiento = new Movimiento();
         public FrmCometa()
         {
             InitializeComponent();
+            this.KeyPreview = true;
+
+            this.KeyDown += FrmCometa_KeyDown;
+
+            trackBar1.TabStop = false;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -33,10 +43,11 @@ namespace shappes_2d
         private void FrmCometa_Paint(object sender, PaintEventArgs e)
         {
             if (!dibujar) return;
+            Graphics g = e.Graphics;
 
-            Figuras figuras = new Figuras();
-            // Llamada limpia con solo dos parámetros
+            movimiento.AplicarTransformaciones(g, 350, 150);
             figuras.DibujarCometa(e.Graphics, anchoCometa, altoCometa);
+            g.ResetTransform();
 
         }
 
@@ -67,6 +78,22 @@ namespace shappes_2d
         private void FrmCometa_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void FrmCometa_KeyDown(object sender, KeyEventArgs e)
+        {
+            movimiento.ControlTeclado(e);
+
+            Invalidate();
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+             float escala = trackBar1.Value / 10.0f;
+
+    movimiento.CambiarEscala(escala);
+
+    Invalidate();
         }
     }
 }

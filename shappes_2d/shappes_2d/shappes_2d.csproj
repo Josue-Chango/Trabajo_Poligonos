@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculos.cs" />
+    <Compile Include="Movimiento.cs" />
     <Compile Include="Figuras.cs" />
     <Compile Include="FrmCirculo.cs">
       <SubType>Form</SubType>

@@ -15,9 +15,17 @@ namespace shappes_2d
     {
         float radio=0;
         bool dibujar = false;
+        Figuras figuras = new Figuras();
+
+        Movimiento movimiento = new Movimiento();
         public FrmCirculo()
         {
             InitializeComponent();
+            this.KeyPreview = true;
+
+            this.KeyDown += FrmCirculo_KeyDown;
+
+            trackBar1.TabStop = false;
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
@@ -46,8 +54,11 @@ namespace shappes_2d
             if (!dibujar) return;
 
             Graphics g = e.Graphics;
-            Figuras figuras = new Figuras();
+            movimiento.AplicarTransformaciones(g, 350, 150);
+         
             figuras.DibujarCirculo(g, radio);
+
+            g.ResetTransform();
         }
 
         private void btnResetear_Click(object sender, EventArgs e)
@@ -63,6 +74,29 @@ namespace shappes_2d
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            float escala = trackBar1.Value / 10.0f;
+
+            movimiento.CambiarEscala(escala);
+
+            Invalidate();
+        }
+
+        private void trackBar1_KeyDown(object sender, KeyEventArgs e)
+        {
+            movimiento.ControlTeclado(e);
+
+            Invalidate();
+        }
+
+        private void FrmCirculo_KeyDown(object sender, KeyEventArgs e)
+        {
+            movimiento.ControlTeclado(e);
+
+            Invalidate();
         }
     }
 }

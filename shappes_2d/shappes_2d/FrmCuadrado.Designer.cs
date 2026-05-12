@@ -37,6 +37,8 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnResetear = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -121,11 +123,23 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(12, 196);
+            this.trackBar1.Maximum = 50;
+            this.trackBar1.Minimum = 1;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(104, 45);
+            this.trackBar1.TabIndex = 12;
+            this.trackBar1.Value = 10;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            // 
             // FrmCuadrado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnResetear);
             this.Controls.Add(this.btnCalcular);
@@ -138,6 +152,8 @@
             this.Name = "FrmCuadrado";
             this.Text = "Cuadrado";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmCuadrado_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmCuadrado_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,5 +170,6 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnResetear;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.TrackBar trackBar1;
     }
 }

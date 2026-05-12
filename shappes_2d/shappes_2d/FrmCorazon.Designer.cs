@@ -32,6 +32,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnDibujar = new System.Windows.Forms.Button();
             this.txtTamaño = new System.Windows.Forms.TextBox();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -54,7 +56,7 @@
             // 
             // btnDibujar
             // 
-            this.btnDibujar.Location = new System.Drawing.Point(31, 116);
+            this.btnDibujar.Location = new System.Drawing.Point(28, 102);
             this.btnDibujar.Name = "btnDibujar";
             this.btnDibujar.Size = new System.Drawing.Size(75, 23);
             this.btnDibujar.TabIndex = 3;
@@ -70,11 +72,23 @@
             this.txtTamaño.TabIndex = 4;
             this.txtTamaño.TextChanged += new System.EventHandler(this.txtTamaño_TextChanged);
             // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(28, 164);
+            this.trackBar1.Maximum = 50;
+            this.trackBar1.Minimum = 1;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(104, 45);
+            this.trackBar1.TabIndex = 10;
+            this.trackBar1.Value = 10;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            // 
             // FrmCorazon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.txtTamaño);
             this.Controls.Add(this.btnDibujar);
             this.Controls.Add(this.label2);
@@ -83,6 +97,8 @@
             this.Text = "Corazon";
             this.Load += new System.EventHandler(this.FrmCorazon_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmCorazon_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmCorazon_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -94,5 +110,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnDibujar;
         private System.Windows.Forms.TextBox txtTamaño;
+        private System.Windows.Forms.TrackBar trackBar1;
     }
 }

@@ -32,6 +32,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtGrosor = new System.Windows.Forms.TextBox();
             this.btnDibujar = new System.Windows.Forms.Button();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -71,11 +73,23 @@
             this.btnDibujar.UseVisualStyleBackColor = true;
             this.btnDibujar.Click += new System.EventHandler(this.btnDibujar_Click);
             // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(35, 156);
+            this.trackBar1.Maximum = 50;
+            this.trackBar1.Minimum = 1;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(104, 45);
+            this.trackBar1.TabIndex = 11;
+            this.trackBar1.Value = 10;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            // 
             // FrmCruz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.btnDibujar);
             this.Controls.Add(this.txtGrosor);
             this.Controls.Add(this.label2);
@@ -84,6 +98,8 @@
             this.Text = "FrmCruz";
             this.Load += new System.EventHandler(this.FrmCruz_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmCruz_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmCruz_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,5 +111,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtGrosor;
         private System.Windows.Forms.Button btnDibujar;
+        private System.Windows.Forms.TrackBar trackBar1;
     }
 }

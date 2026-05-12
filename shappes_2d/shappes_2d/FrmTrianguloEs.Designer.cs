@@ -37,6 +37,8 @@
             this.txtLado3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtArea = new System.Windows.Forms.TextBox();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -117,11 +119,23 @@
             this.txtArea.TabIndex = 8;
             this.txtArea.TextChanged += new System.EventHandler(this.txtArea_TextChanged);
             // 
+            // trackBar1
+            // 
+            this.trackBar1.Location = new System.Drawing.Point(34, 289);
+            this.trackBar1.Maximum = 50;
+            this.trackBar1.Minimum = 1;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(104, 45);
+            this.trackBar1.TabIndex = 9;
+            this.trackBar1.Value = 10;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            // 
             // FrmTrianguloEs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.txtArea);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtLado3);
@@ -135,6 +149,8 @@
             this.Text = "FrmTrianguloEs";
             this.Load += new System.EventHandler(this.FrmTrianguloEs_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FrmTrianguloEs_Paint);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmTrianguloEs_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,5 +167,6 @@
         private System.Windows.Forms.TextBox txtLado3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtArea;
+        private System.Windows.Forms.TrackBar trackBar1;
     }
 }

@@ -14,9 +14,18 @@ namespace shappes_2d
     {
         float tamañoCorazon = 0;
         bool dibujar = false;
+
+        Figuras figuras = new Figuras();
+
+        Movimiento movimiento = new Movimiento();
         public FrmCorazon()
         {
             InitializeComponent();
+            this.KeyPreview = true;
+
+            this.KeyDown += FrmCorazon_KeyDown;
+
+            trackBar1.TabStop = false;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -29,8 +38,10 @@ namespace shappes_2d
             if (!dibujar) return;
 
             Graphics g = e.Graphics;
+            movimiento.AplicarTransformaciones(g, 350, 150);
             Figuras figuras = new Figuras();
             figuras.DibujarCorazon(g, tamañoCorazon);
+            g.ResetTransform();
         }
 
         private void txtTamaño_TextChanged(object sender, EventArgs e)
@@ -55,6 +66,22 @@ namespace shappes_2d
             {
                 MessageBox.Show("Ingresa un número válido para el tamaño.");
             }
+        }
+
+        private void FrmCorazon_KeyDown(object sender, KeyEventArgs e)
+        {
+            movimiento.ControlTeclado(e);
+
+            Invalidate();
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            float escala = trackBar1.Value / 10.0f;
+
+            movimiento.CambiarEscala(escala);
+
+            Invalidate();
         }
     }
 }

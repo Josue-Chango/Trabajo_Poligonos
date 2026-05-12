@@ -64,11 +64,11 @@ namespace shappes_2d
 
         private void FrmPentagono_Paint(object sender, PaintEventArgs e)
         {
-            /*Graphics g = e.Graphics;
+            Graphics g = e.Graphics;
             if (!dibujar) return;
 
             Figuras figuras = new Figuras();
-            figuras.DibujarPentagono(g, lado);*/
+            figuras.DibujarPentagono(g, lado);
         }
     }
 }
